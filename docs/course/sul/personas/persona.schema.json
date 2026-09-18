@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ai-for-pm.local/sul/persona.schema.json",
+  "title": "SUL Persona",
+  "type": "object",
+  "required": [
+    "id",
+    "segment",
+    "display_name",
+    "jtbd",
+    "constraints",
+    "channels",
+    "success_signal",
+    "source"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^P[0-9]{2,4}$",
+      "description": "Stable id, e.g. P01"
+    },
+    "segment": {
+      "type": "string",
+      "minLength": 2,
+      "description": "Named segment, not 'average user'"
+    },
+    "display_name": { "type": "string" },
+    "demographics": {
+      "type": "object",
+      "properties": {
+        "age_range": { "type": "string" },
+        "role": { "type": "string" },
+        "locale": { "type": "string" }
+      }
+    },
+    "jtbd": {
+      "type": "string",
+      "minLength": 20,
+      "description": "Job-to-be-done in one paragraph"
+    },
+    "motivations": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+    "constraints": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1,
+      "description": "Budget, time, skills, policy, device…"
+    },
+    "channels": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+    "behaviors": {
+      "type": "object",
+      "properties": {
+        "patience_actions": { "type": "integer", "minimum": 1 },
+        "price_sensitivity": { "type": "string", "enum": ["low", "medium", "high"] },
+        "tech_comfort": { "type": "string", "enum": ["low", "medium", "high"] }
+      }
+    },
+    "success_signal": {
+      "type": "string",
+      "description": "What counts as success in a simulated session"
+    },
+    "quotes_seed": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Optional voice seeds from research"
+    },
+    "source": {
+      "type": "string",
+      "enum": ["interview", "analytics_cluster", "desk_research", "llm_draft", "mixed"],
+      "description": "llm_draft alone is weak for S1 acceptance"
+    },
+    "bias_notes": {
+      "type": "string",
+      "description": "Known ways this persona may misrepresent reality"
+    }
+  },
+  "additionalProperties": true
+}
