@@ -19,8 +19,8 @@
 | [`week-06/`](./week-06/) | **Н6** Bare vs rich аналитика → **S4** старт (protocol) | draft v1 · лекция · ДЗ · **слайды** [`slides.md`](./week-06/slides.md) |
 | [`week-07/`](./week-07/) | **Н7** Питч + претест ≥50–100 (**S4**) | draft v1 · лекция · ДЗ · **слайды** [`slides.md`](./week-07/slides.md) |
 | [`week-08/`](./week-08/) | **Н8** Капстоун / защита (**S5**) | draft v1 · лекция · ДЗ · **слайды** [`slides.md`](./week-08/slides.md) |
-| [`sul/`](./sul/) | Флагман **S0→S5**: scaffold + шаблоны S1–S5 + n8n #1–#3 + S4 runner | draft v2 |
-| [`instructor/`](./instructor/) | Playbook 0–8 + **эталоны Ритм** | v2 |
+| [`sul/`](./sul/) | Флагман **S0→S5**: scaffold + шаблоны S1–S5 + n8n #1–#3 + S4 runner + unit-sheet CSV + EXAMPLE S5 | draft v2 + P2 |
+| [`instructor/`](./instructor/) | Playbook 0–8 + **эталоны Ритм** + screencast shot-list | v2 + P2 |
 | [`materials-by-module.md`](./materials-by-module.md) | Reading list + gaps по каждой неделе | живой индекс |
 
 Внешние источники и снапшоты: [`../external-materials.md`](../external-materials.md), [`../materials-snapshots/`](../materials-snapshots/).
@@ -111,10 +111,10 @@
 
 ## Дальше по производству
 
-**Шаг 1/4 (лекции)** — **готово:** `lecture.md` в `week-00`…`week-08`.  
-**Шаг 2/4 (homework)** — **готово:** `homework.md` + `homework-key.md` в `week-00`…`week-08`.  
-**Шаг 3/4 (слайды)** — **готово:** `slides.md` в `week-00`…`week-08`.  
-**Шаг 4/4** — P2 (скринкаст, `.xlsx` Н5, sample RUBRIC).
+**Шаг 1/4 (лекции)** — **готово.**  
+**Шаг 2/4 (homework)** — **готово.**  
+**Шаг 3/4 (слайды)** — **готово.**  
+**Шаг 4/4 (P2)** — **готово:** EXAMPLE S5 · mermaid в briefs Н2–Н8 · unit-sheet CSV · shot-list скринкаста (видео — автор).
 
-v2 instructor kit (эталоны Ритм, n8n #2/#3, S4 runner, playbook) — закрыт ранее.  
-Синк слайдов: [`../local-push-brief-slides.md`](../local-push-brief-slides.md) · ДЗ: [`../local-push-brief-homework.md`](../local-push-brief-homework.md) · лекции: [`../local-push-brief-lectures.md`](../local-push-brief-lectures.md) · полный v2: [`../local-push-brief.md`](../local-push-brief.md) · статус: [`../../internal/materials-production.md`](../../internal/materials-production.md).
+**Sequential pack complete.** Синк всех handoff в main: [`../local-push-brief-steps-1-4.md`](../local-push-brief-steps-1-4.md).  
+P2 only: [`../local-push-brief-p2.md`](../local-push-brief-p2.md) · слайды / ДЗ / лекции / v2 — отдельные briefs · статус: [`../../internal/materials-production.md`](../../internal/materials-production.md).

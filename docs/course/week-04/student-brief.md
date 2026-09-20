@@ -2,6 +2,16 @@
 
 Практика **4–6 ч**. Сдача: `strategy/MEMO.md` + `strategy/bets.md` + заполненный tornado + sizing sheet.
 
+```mermaid
+flowchart TB
+  Bets[3 ставки + kill] --> Size[Bottom-up sizing]
+  Size --> Tornado[Tornado ± допущения]
+  Tornado --> Memo[MEMO go/no-go]
+  Memo --> S3[S3 закрыт]
+```
+
+Схема sizing: [`lesson-outline.md`](./lesson-outline.md) · шаблон [`../sul/templates/market-tornado.md`](../sul/templates/market-tornado.md).
+
 ---
 
 ## A. Три ставки

@@ -1,8 +1,8 @@
-# Handoff · AI для продакта — слайды (step 3/4)
+# Handoff · ai-for-pm-course · P2 (step 4/4)
 
-Скопировать в `gavnukkk97/ai-for-pm-course`:
+Copy contents of `docs/` into `gavnukkk97/ai-for-pm-course` main.
 
-- `docs/course/week-*/slides.md`
-- `docs/course/README.md`
+See `docs/local-push-brief-p2.md` and consolidated `docs/local-push-brief-steps-1-4.md`.
 
-Инструкция: Project store `docs/local-push-brief-slides.md`.
+**Branch:** `handoff/ai-for-pm-course-p2`  
+**Source store:** Project «AI для продактов» Context.

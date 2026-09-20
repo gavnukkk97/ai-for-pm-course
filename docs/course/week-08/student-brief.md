@@ -2,6 +2,20 @@
 
 Практика: дожим + защита. Сдача: ссылка на SUL v1 + `defense/` пакет + заполненная рубрика.
 
+Пример заполненной рубрики (**EXAMPLE**, не копировать кейс): [`../sul/examples/s5-rhythm-filled-rubric.md`](../sul/examples/s5-rhythm-filled-rubric.md).
+
+```mermaid
+flowchart LR
+  Pack[defense pack] --> Rubric[RUBRIC-SELF]
+  Pack --> Peer[PEER]
+  Rubric --> V{Честный вердикт}
+  Peer --> V
+  V -->|supports/rejects| Live[Живой шаг]
+  V -->|inconclusive| Learn[Что дособрать]
+```
+
+Цепочка S0→S5: [`lesson-outline.md`](./lesson-outline.md).
+
 ---
 
 ## A. SUL v1 checklist

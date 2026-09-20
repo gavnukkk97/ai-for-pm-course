@@ -1,0 +1,11 @@
+step,rate_vs_prior,users_base,unit,source,notes
+Install,—,10000,user,teaching_wave_10k,EXAMPLE Rhythm napkin — replace with yours
+Onboarding_completed,0.72,7200,user,assumption,
+Habit_created,0.75_of_onb,5400,user,assumption,
+Depth_ge3,0.27_of_habit,1460,user,assumption,bottleneck demo
+Paywall_reach_demo,—,2000,user,assumption,may exceed depth if early paywall
+New_Pro,—,380,payer,assumption,
+CAC_rub_per_install,—,45,rub,assumption,
+First_payment_mix_rub,—,806,rub_per_new_pro,assumption,70pct*299 + 30pct*(1990/12)
+Margin_assumption,—,0.85,ratio,teaching,label as assumption
+LTV_napkin_rub,—,1100,rub_per_payer,teaching,not law

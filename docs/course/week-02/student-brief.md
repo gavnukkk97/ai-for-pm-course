@@ -4,6 +4,16 @@
 
 Всё — про **свой** продукт из 1-pager Н0. Ритм только как образец структуры на занятии.
 
+```mermaid
+flowchart LR
+  One[1-pager Н0] --> Res[research/ ICP·competitors·UTP]
+  Res --> Seg[Сегменты ≥3]
+  Seg --> Bank[personas ≥10 → ≥15 к Н3]
+  Bank --> S1[S1 gate]
+```
+
+Теория desk→persona: [`lesson-outline.md`](./lesson-outline.md).
+
 ---
 
 ## A. Research pack

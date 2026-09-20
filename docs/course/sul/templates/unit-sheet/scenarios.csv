@@ -1,0 +1,6 @@
+driver,downside,base,upside,unit,must_be_true
+Depth_habit_to_ge3,0.20,0.27,0.35,rate,DEFINITIONS depth event exists in data
+New_Pro_same_wave,280,380,500,payers,paywall reach and CV assumptions held
+Focus_action,simplify_onboarding_late_paywall,current_plan,plus_benefit_copy_after_depth,text,ties to H01/H02/H03
+NS_or_margin_proxy_note,weaker_depth_hurts_NS,base_NS_path,deeper_habit_lifts_NS,text,pretest success ≠ D7 depth
+Red_flag,agent_triples_LTV_without_DEFINITIONS,—,—,text,reject agent output

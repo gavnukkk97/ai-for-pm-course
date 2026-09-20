@@ -69,7 +69,7 @@
 ## Эталон pointer
 
 В [`06-pretest-pitch-demo-notes.md`](../instructor/rhythm-exemplars/06-pretest-pitch-demo-notes.md) §S5 покажите talk-track с **намеренным inconclusive** и WHERE-IT-LIES.  
-Заполненный sample RUBRIC на Ритм — P2 gap; оценивайте по пустой рубрике + наблюдаемым артефактам.
+EXAMPLE filled RUBRIC: [`../sul/examples/s5-rhythm-filled-rubric.md`](../sul/examples/s5-rhythm-filled-rubric.md) (калибровка оценки; не принимать Ритм как кейс студента).
 
 ---
 

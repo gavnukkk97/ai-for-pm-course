@@ -4,6 +4,19 @@
 
 Числа — **свои** (факт или честные допущения с метками). Ритм не копировать.
 
+Spreadsheet-шаблон (CSV → Excel/Sheets): [`../sul/templates/unit-sheet/`](../sul/templates/unit-sheet/).
+
+```mermaid
+flowchart LR
+  Def[DEFINITIONS] --> Tree[tree.md]
+  Def --> Unit[unit sheet]
+  Tree --> Sc[3 сценария]
+  Unit --> Sc
+  Sc --> Cal[CALIBRATION ≥2 правок]
+```
+
+Ритуал «агент считает → человек калибрует»: [`lesson-outline.md`](./lesson-outline.md).
+
 ---
 
 ## A. Определения сначала

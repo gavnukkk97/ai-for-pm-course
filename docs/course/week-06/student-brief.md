@@ -2,6 +2,17 @@
 
 Практика **4–6 ч**. Сдача: `context/` pack + отчёт bare-vs-rich + flow #3 + черновик pretest protocol.
 
+```mermaid
+flowchart TB
+  Q[Один вопрос] --> Bare[Bare: вопрос + сырой CSV]
+  Q --> Rich[Rich: context/ + DEFINITIONS]
+  Bare --> Cmp[Сравнение ошибок]
+  Rich --> Cmp
+  Cmp --> Proto[Черновик pretest protocol → S4]
+```
+
+Bare vs rich: [`lesson-outline.md`](./lesson-outline.md).
+
 ---
 
 ## A. Rich context pack

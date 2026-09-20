@@ -2,6 +2,20 @@
 
 Практика **4–6 ч** (прогон может занять основное время). Сдача: `pitch/` + `runs/pretest/` отчёт с N≥50.
 
+```mermaid
+sequenceDiagram
+  participant Proto as Protocol
+  participant Bank as Personas
+  participant Run as Runner N≥50
+  participant Pitch as Pitch + ЛПР
+  Proto->>Bank: sample between-subject
+  Bank->>Run: A or B + seed
+  Run->>Pitch: REPORT metrics + themes
+  Pitch->>Pitch: ask = живой шаг
+```
+
+Pipeline: [`lesson-outline.md`](./lesson-outline.md) · protocol [`../sul/templates/pretest-protocol.md`](../sul/templates/pretest-protocol.md).
+
 ---
 
 ## A. Питч-дек

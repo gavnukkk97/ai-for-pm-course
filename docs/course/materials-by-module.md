@@ -19,7 +19,7 @@
 | YT | [AI-Native PM webinar](https://www.youtube.com/watch?v=Xp_iIkt94TQ) | опц. | filled |
 | Paid | LI Learning Marily Nika — AI Agents for Product Leaders | опц. | thin (paid) |
 
-**Gaps:** короткий RU-скринкаст «ставим Cursor за 10 мин» своим автором — **todo**.
+**Gaps:** короткий RU-скринкаст «ставим Cursor за 10 мин» своим автором — **todo** (видео); shot-list готов — [`instructor/screencast-cursor-10min-shotlist.md`](./instructor/screencast-cursor-10min-shotlist.md).
 
 Студенческие тексты: [`week-00/`](./week-00/).
 
@@ -119,8 +119,9 @@
 | GitHub | pm-skills analytics | skim | filled (link) |
 | Our | [`week-05/`](./week-05/) pack (DEFINITIONS / tree / scenarios) | да | filled |
 | Our | [`instructor/rhythm-exemplars/04-metrics-tree-unit-sheet.md`](./instructor/rhythm-exemplars/04-metrics-tree-unit-sheet.md) | instructor | filled |
+| Our | [`sul/templates/unit-sheet/`](./sul/templates/unit-sheet/) CSV + README | да (шаблон) | filled |
 
-**Gaps:** spreadsheet `.xlsx` шаблон 3 сценария — **todo** (P2; MD-таблица в brief + эталон markdown — **filled**).
+**Gaps:** spreadsheet шаблон 3 сценария — **filled** (CSV; `.xlsx` собирается локально из CSV по README). MD-таблица в brief + эталон markdown — **filled**.
 
 **Required readings:** week-05 brief · шпаргалка метрик из prior course · калибровочный ритуал.
 
@@ -166,10 +167,11 @@
 |---|---|---|---|
 | Our | [`sul/validity-rubric-stub.md`](./sul/validity-rubric-stub.md) | да | filled |
 | Our | [`sul/templates/s5-defense-rubric.md`](./sul/templates/s5-defense-rubric.md) (**S5**) | да | filled |
+| Our | [`sul/examples/`](./sul/examples/) EXAMPLE filled rubric + memo (Ритм) | instructor | filled |
 | Our | [`week-08/`](./week-08/) pack | да | filled |
 | Paper | AgentA/B + SimAB калибровка | да | filled |
 
-**Gaps:** talk-track защиты — **filled** (в [`06-pretest-pitch-demo-notes.md`](./instructor/rhythm-exemplars/06-pretest-pitch-demo-notes.md)). Заполненный sample RUBRIC на Ритм — **todo** (P2). Playbook 0–8 — **filled** ([`instructor/playbook-0-8.md`](./instructor/playbook-0-8.md)).
+**Gaps:** talk-track защиты — **filled** (в [`06-pretest-pitch-demo-notes.md`](./instructor/rhythm-exemplars/06-pretest-pitch-demo-notes.md)). Заполненный sample RUBRIC на Ритм — **filled** ([`sul/examples/s5-rhythm-filled-rubric.md`](./sul/examples/s5-rhythm-filled-rubric.md)). Playbook 0–8 — **filled** ([`instructor/playbook-0-8.md`](./instructor/playbook-0-8.md)).
 
 **Required readings:** s5-defense-rubric · свой S4 REPORT · calibration notes.
 
@@ -181,7 +183,9 @@
 |---|---|---|
 | Playbook Н0–Н8 | [`instructor/playbook-0-8.md`](./instructor/playbook-0-8.md) | filled |
 | Rhythm exemplars | [`instructor/rhythm-exemplars/`](./instructor/rhythm-exemplars/) | filled |
+| Cursor screencast shot-list | [`instructor/screencast-cursor-10min-shotlist.md`](./instructor/screencast-cursor-10min-shotlist.md) | thin (script; video author) |
 | Local push brief (kir) | [`../local-push-brief.md`](../local-push-brief.md) | filled |
+| Consolidated sync 1–4 | [`../local-push-brief-steps-1-4.md`](../local-push-brief-steps-1-4.md) | filled |
 
 ---
 

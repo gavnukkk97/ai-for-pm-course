@@ -2,6 +2,17 @@
 
 Практика **4–6 ч**. Сдача: `hypotheses/H01…` (5–7) + `evidence/` + 1 digest из n8n + S1 ≥15 персон.
 
+```mermaid
+flowchart TD
+  S1[S1 ≥15 персон] --> H[5–7 гипотез X→Y→Z]
+  H --> RT[Red-team ≥2]
+  RT --> Plan[Runner-plan]
+  H --> Dig[n8n digest #2]
+  Plan --> S2[S2 готов к sizing Н4]
+```
+
+Контракт X→Y→Z: [`lesson-outline.md`](./lesson-outline.md).
+
 ---
 
 ## A. Дожим S1

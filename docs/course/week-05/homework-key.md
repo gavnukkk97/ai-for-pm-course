@@ -53,7 +53,7 @@
 
 [`04-metrics-tree-unit-sheet.md`](../instructor/rhythm-exemplars/04-metrics-tree-unit-sheet.md): покажите глубину NS→$ и блок калибровки («агент завысил CAC»). Не раздавайте готовые цифры как ответ.
 
-`.xlsx` шаблон — P2 gap; MD-таблица в сдаче достаточна.
+Spreadsheet: [`../sul/templates/unit-sheet/`](../sul/templates/unit-sheet/) (CSV → Excel/Sheets по README). MD-таблица в сдаче тоже ок.
 
 ---
 

@@ -20,7 +20,7 @@ flowchart LR
 | **S2** Hypotheses | 3–4 | [`hypotheses/_TEMPLATE.md`](./hypotheses/_TEMPLATE.md) + [`hypotheses/hypothesis-runner-stub.md`](./hypotheses/hypothesis-runner-stub.md) | 5–7 гипотез X→Y→Z + runner-plan |
 | **S3** Market eval | 4–5 | [`templates/market-tornado.md`](./templates/market-tornado.md) + [`templates/decision-memo-stub.md`](./templates/decision-memo-stub.md) | sizing + tornado на своих числах |
 | **S4** Pretest | 6–7 | [`templates/pretest-protocol.md`](./templates/pretest-protocol.md) + [`runners/`](./runners/) | ≥50–100 агентов, 2 варианта, REPORT |
-| **S5** Defense | 8 | [`validity-rubric-stub.md`](./validity-rubric-stub.md) + [`templates/s5-defense-rubric.md`](./templates/s5-defense-rubric.md) | честная защита |
+| **S5** Defense | 8 | [`validity-rubric-stub.md`](./validity-rubric-stub.md) + [`templates/s5-defense-rubric.md`](./templates/s5-defense-rubric.md) + **EXAMPLE** [`examples/`](./examples/) | честная защита |
 
 Теоретический фундамент: AgentA/B (arXiv 2504.09723), урок 4.6 `stats-ab-course`, ethics notice как в voice-of-agents.
 
@@ -88,11 +88,16 @@ sul/
 │   ├── pretest_runner.py
 │   ├── pretest_runner.ipynb
 │   └── runs/demo-h02-landing-n60/
-└── templates/
-    ├── decision-memo-stub.md
-    ├── market-tornado.md     ← S3
-    ├── pretest-protocol.md   ← S4
-    └── s5-defense-rubric.md  ← S5
+├── templates/
+│   ├── decision-memo-stub.md
+│   ├── market-tornado.md     ← S3
+│   ├── pretest-protocol.md   ← S4
+│   ├── s5-defense-rubric.md  ← S5
+│   └── unit-sheet/           ← Н5 CSV (definitions/funnel/scenarios)
+└── examples/                 ← EXAMPLE filled S5 (Rhythm), not student work
+    ├── README.md
+    ├── s5-rhythm-filled-rubric.md
+    └── s5-rhythm-decision-memo.md
 ```
 
 Instructor эталоны Ритм (не копировать в студенческий кейс): [`../instructor/rhythm-exemplars/`](../instructor/rhythm-exemplars/).

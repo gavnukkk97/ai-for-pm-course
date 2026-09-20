@@ -1,0 +1,4 @@
+field,agent_value,human_corrected,direction,why,date
+CAC_rub_per_install,120,45,agent_overstated,agent invented CAC without DEFINITIONS row; demo ritual,2026-09-18
+Depth_habit_to_ge3,0.40,0.27,agent_overstated,optimistic without funnel evidence,2026-09-18
+LTV_napkin_rub,3300,1100,agent_overstated,x3 without retention evidence — reject,2026-09-18

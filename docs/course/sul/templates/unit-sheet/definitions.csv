@@ -1,0 +1,11 @@
+metric,formula,window,dedup,source,notes
+North_Star_D7_depth_ge3,users with >=3 check_ins on distinct days within 7d of habit_created / users with habit_created,7d from habit,user-level,live_or_assumption,NSM-candidate; not pretest proxy
+Install,first install or first user row,—,1 per user,live,
+Onboarding_completed,event onboarding_completed,session/day,1 per user,live,
+Habit_created,event habit_created,—,1+ per user ok; funnel uses first,live,
+D1_check_in,>=1 check_in within 24h after habit,24h,user-level,live,
+Paywall_view,paywall impression,—,event,live,
+New_Pro,first payment or first subscription row,14d from habit for CV demo,user-level,live_or_assumption,
+CAC_per_install,paid acquisition cost / installs in same cohort,cohort window,install,assumption_until_measured,agent may not invent
+ARPPU,revenue / paying users; state month vs year mix,period,payer,assumption_or_live,
+Contribution_margin_proxy,(revenue - variable_cost) / revenue,period,—,assumption,teaching default 85% only if labeled
