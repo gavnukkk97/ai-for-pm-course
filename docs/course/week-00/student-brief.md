@@ -3,10 +3,15 @@
 Срок: **до первого живого занятия** (неделя 0, async).  
 Сдача: ссылка на папку/репо с четырьмя артефактами ниже + скрин n8n «Workflows».
 
+**Сначала триаж:** нет URL, NDA или нет Docker — не стоп. Откройте [`../cold-start-triage.md`](../cold-start-triage.md) и в ONEPAGER одной строкой зафиксируйте ветку (`track: A|B` + флаги `NDA` / `no-docker`).
+
 ### Env checklist (визуально)
 
 ```mermaid
 flowchart LR
+  subgraph triage["0 · Триаж"]
+    T1["live / idea / NDA / no-Docker"]
+  end
   subgraph harness["1 · Harness"]
     H1["Установка"] --> H2["hello.md от агента"]
     H2 --> H3["verify.md руками"]
@@ -20,8 +25,10 @@ flowchart LR
   subgraph contract["4 · Договор"]
     C1["ai-contract.md"]
   end
-  harness --> n8nbox --> product --> contract
+  triage --> harness --> n8nbox --> product --> contract
 ```
+
+Скрины UI появятся позже в [`../media/`](../media/) (пока — текстовый чеклист + офиц. доки).
 
 ---
 
@@ -124,3 +131,9 @@ docker run -it --rm \
 - Не копировать данные Ритма как «свой продукт».  
 - Не ждать идеального доступа к прод-метрикам — честные допущения ок, если помечены.  
 - Не ставить целью «выучить все модели» — цель: процесс + контракт.
+
+<!-- week-nav -->
+---
+
+**Навигация:** · старт курса · · [Н0 индекс](./README.md) · [Н1 →](../week-01/) · [курс](../README.md) · [SUL](../sul/)
+

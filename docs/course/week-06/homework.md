@@ -91,3 +91,9 @@ AgentA/B abstract refresh · pretest protocol целиком.
 | n8n #3 | 0,75–1,25 |
 | Protocol S4 | 1–1,5 |
 | **Итого** | **4–6** |
+
+<!-- week-nav -->
+---
+
+**Навигация:** [Н6 индекс](./README.md) · [brief](./student-brief.md) · [checklist](./checklist.md) · [Н7 →](../week-07/)
+

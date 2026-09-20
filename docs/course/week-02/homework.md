@@ -73,3 +73,9 @@ Research pack по **своему** продукту → банк персон (
 ## Связь с n8n
 
 На Н2 новый flow не обязателен; flow #1 должен оставаться зелёным. Signals для digest появятся на Н3.
+
+<!-- week-nav -->
+---
+
+**Навигация:** [Н2 индекс](./README.md) · [brief](./student-brief.md) · [checklist](./checklist.md) · [Н3 →](../week-03/)
+

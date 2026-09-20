@@ -23,9 +23,10 @@
 
 ```mermaid
 flowchart TD
-  A["Старт Н0"] --> B["Выбрать harness ≥1\nCursor или Claude Code"]
+  A["Старт Н0"] --> T["Триаж: live / idea / NDA / no-Docker"]
+  T --> B["Выбрать harness ≥1<br/>Cursor или Claude Code"]
   B --> C["Dry-run: агент пишет файл на диск"]
-  C --> D["Поднять n8n\nDocker или Cloud"]
+  C --> D["Поднять n8n<br/>Docker или Cloud"]
   D --> E["Пустой workflow сохранён"]
   E --> F["1-pager своего продукта"]
   F --> G["Договор AI ≠ вывод"]

@@ -28,6 +28,6 @@
 - [ ] Нет ключей / `.env` / личных чатов на экране  
 - [ ] Нет Mail/Ya private ops  
 - [ ] Субтитры RU или чёткая дикция  
-- [ ] Ссылка проставлена в [`../../materials-by-module.md`](../../materials-by-module.md) §Н0  
+- [ ] Ссылка проставлена в [`../materials-by-module.md`](../materials-by-module.md) §Н0  
 
 Пока видео нет — студентам достаточно официальных install-доков (уже в Н0 brief).

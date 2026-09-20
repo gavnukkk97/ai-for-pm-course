@@ -83,3 +83,15 @@ flowchart LR
 ## Критерии
 
 [`checklist.md`](./checklist.md).
+
+---
+
+## Что дальше после курса
+
+Не раздувайте новый фреймворк — возьмите короткий ритуал: [`../monday-survival-checklist.md`](../monday-survival-checklist.md) (digest · один skill · одна SUL-гигиена). На защите можно одной фразой сказать, какой **живой** шаг и какой monday-ритуал вы уносите на работу.
+
+<!-- week-nav -->
+---
+
+**Навигация:** [← Н7](../week-07/) · [Н8 индекс](./README.md) · · капстоун · · [курс](../README.md) · [SUL](../sul/) · [после курса](../monday-survival-checklist.md)
+

@@ -75,3 +75,9 @@ AgentA/B PDF/abstract · SimAB abstract · pm-skills GTM (skim).
 ## Критерии
 
 [`checklist.md`](./checklist.md).
+
+<!-- week-nav -->
+---
+
+**Навигация:** [← Н6](../week-06/) · [Н7 индекс](./README.md) · [Н8 →](../week-08/) · [курс](../README.md) · [SUL](../sul/)
+

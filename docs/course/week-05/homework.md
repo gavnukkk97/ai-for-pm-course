@@ -88,3 +88,9 @@
 ## Мост к S4
 
 В `metrics/tree.md` или `notes/s4-bridge.md` одной строкой: какой Z из гипотез = success event будущего претеста.
+
+<!-- week-nav -->
+---
+
+**Навигация:** [Н5 индекс](./README.md) · [brief](./student-brief.md) · [checklist](./checklist.md) · [Н6 →](../week-06/)
+

@@ -15,7 +15,7 @@
 | Эталоны Ритм | [`rhythm-exemplars/`](./rhythm-exemplars/) |
 | n8n #1–#3 | [`../sul/n8n/`](../sul/n8n/) |
 | S4 runner | [`../sul/runners/`](../sul/runners/) |
-| Программа | [`../../ai-for-pm-course-program.md`](../../ai-for-pm-course-program.md) |
+| Программа | [`../../program.md`](../../program.md) |
 
 ```mermaid
 flowchart LR

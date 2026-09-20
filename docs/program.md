@@ -36,14 +36,14 @@
 
 ```mermaid
 flowchart LR
-  N0["Н0\nenv"] --> N1["Н1\nharness+n8n"]
-  N1 --> N2["Н2\nICP"]
-  N2 --> N3["Н3\ndiscovery"]
-  N3 --> N4["Н4\nставки"]
-  N4 --> N5["Н5\nметрики"]
-  N5 --> N6["Н6\nanalytics"]
-  N6 --> N7["Н7\nпитч"]
-  N7 --> N8["Н8\nS5"]
+  N0["Н0<br/>env"] --> N1["Н1<br/>harness+n8n"]
+  N1 --> N2["Н2<br/>ICP"]
+  N2 --> N3["Н3<br/>discovery"]
+  N3 --> N4["Н4<br/>ставки"]
+  N4 --> N5["Н5<br/>метрики"]
+  N5 --> N6["Н6<br/>analytics"]
+  N6 --> N7["Н7<br/>питч"]
+  N7 --> N8["Н8<br/>S5"]
 ```
 
 Правило продукта: студент ведёт **свой продукт / рабочий кейс** (payoff = автоматизация на работе). Параллельно преподаватели **демонстрируют на Ритме** (стенд из `product-analytics-ai-course`).
@@ -51,12 +51,12 @@ flowchart LR
 ```mermaid
 flowchart TB
   subgraph student["Трек студента"]
-    SP["Свой продукт / кейс"] --> SA["Harness + n8n + SUL\nна своих артефактах"]
-    SA --> SS["Сдача: файлы в git +\nприёмка недели"]
+    SP["Свой продукт / кейс"] --> SA["Harness + n8n + SUL<br/>на своих артефактах"]
+    SA --> SS["Сдача: файлы в git +<br/>приёмка недели"]
   end
   subgraph ritm["Трек демо · Ритм"]
-    RP["Стенд product-analytics-ai-course"] --> RA["Тот же контур\nна файлах/данных Ритма"]
-    RA --> RD["Эталон структуры\nне замена кейса"]
+    RP["Стенд product-analytics-ai-course"] --> RA["Тот же контур<br/>на файлах/данных Ритма"]
+    RA --> RD["Эталон структуры<br/>не замена кейса"]
   end
   student -. "паттерн, не данные" .-> ritm
 ```
@@ -98,12 +98,12 @@ flowchart TB
 
 ```mermaid
 flowchart TB
-  P["Продукт студента · URL / офер / процесс\n(демо instructor: Ритм)"]
-  H["Harness · Cursor или Claude Code ≥1\nrules + skills + evals-lite"]
-  N["n8n · оркестрация\nwebhook / schedule / LLM → файл"]
-  C["Skills + git-контракт\npersonas · hypotheses · runs"]
-  R["Прогоны · Python/ноутбук + LLM API\nseed для воспроизводимости"]
-  E["Eval · чеклист + golden cases\nчеловек = финальный судья"]
+  P["Продукт студента · URL / офер / процесс<br/>(демо instructor: Ритм)"]
+  H["Harness · Cursor или Claude Code ≥1<br/>rules + skills + evals-lite"]
+  N["n8n · оркестрация<br/>webhook / schedule / LLM → файл"]
+  C["Skills + git-контракт<br/>personas · hypotheses · runs"]
+  R["Прогоны · Python/ноутбук + LLM API<br/>seed для воспроизводимости"]
+  E["Eval · чеклист + golden cases<br/>человек = финальный судья"]
   P --> H
   P --> N
   H --> C
@@ -126,11 +126,11 @@ flowchart TB
 
 ```mermaid
 flowchart LR
-  S0["S0\nScaffold\nнед.1"] --> S1["S1\nPersonas\nнед.2–3"]
-  S1 --> S2["S2\nHypothesis\nнед.3–4"]
-  S2 --> S3["S3\nMarket\nнед.4–5"]
-  S3 --> S4["S4\nPretest\nнед.6–7"]
-  S4 --> S5["S5\nDefense\nнед.8"]
+  S0["S0<br/>Scaffold<br/>нед.1"] --> S1["S1<br/>Personas<br/>нед.2–3"]
+  S1 --> S2["S2<br/>Hypothesis<br/>нед.3–4"]
+  S2 --> S3["S3<br/>Market<br/>нед.4–5"]
+  S3 --> S4["S4<br/>Pretest<br/>нед.6–7"]
+  S4 --> S5["S5<br/>Defense<br/>нед.8"]
 ```
 
 | Вехи | Неделя | Что должно работать | Критерий приёмки |
@@ -227,7 +227,7 @@ MVP-урезки S0–S3 **не применяем** — цель курса: д
 ## 6. Внешние материалы (курация)
 
 Полный каталог: [`external-materials.md`](./external-materials.md).  
-Снапшоты: [`materials-snapshots/`](./materials-snapshots/).
+Локальные снапшоты `materials-snapshots/` в этом репо пока могут отсутствовать — опирайтесь на живые URL в каталоге.
 
 | Модуль | Лучшие внешние опоры |
 |---|---|
