@@ -9,9 +9,11 @@
 ## Быстрый старт
 
 1. Вернитесь к корневому [`README.md`](../../README.md), если ещё не читали «что получите».  
-2. Начните с [`week-00/`](./week-00/) → `student-brief.md`.  
-3. Каждую неделю идите по цепочке: **brief → homework → checklist**.  
-4. С Н1 ведите флагман в [`sul/`](./sul/) (вехи S0→S5).
+2. Выберите ветку cold-start: [`cold-start-triage.md`](./cold-start-triage.md) (live / idea-only / NDA / no-Docker).  
+3. Начните с [`week-00/`](./week-00/) → `student-brief.md`.  
+4. Каждую неделю идите по цепочке: **brief → homework → checklist**.  
+5. С Н1 ведите флагман в [`sul/`](./sul/) (вехи S0→S5).  
+6. После курса (и как weekly ritual): [`monday-survival-checklist.md`](./monday-survival-checklist.md).
 
 ```mermaid
 flowchart LR
@@ -41,6 +43,9 @@ flowchart LR
 | [`week-07/`](./week-07/) | **Н7** Питч + претест | [`README`](./week-07/README.md) · brief · ДЗ · checklist |
 | [`week-08/`](./week-08/) | **Н8** Капстоун **S5** | [`README`](./week-08/README.md) · brief · ДЗ · checklist |
 | [`sul/`](./sul/) | Флагман **S0→S5** | starter kit, шаблоны, n8n, runner |
+| [`cold-start-triage.md`](./cold-start-triage.md) | Старт | ветки live / idea / NDA / no-Docker |
+| [`monday-survival-checklist.md`](./monday-survival-checklist.md) | После курса | понедельник: digest · skill · SUL |
+| [`media/`](./media/) | Визуалы | манифест скринов/видео (файлы — от автора) |
 | [`instructor/`](./instructor/) | Только преподавателям | playbook, эталоны Ритм, shot-list |
 | [`materials-by-module.md`](./materials-by-module.md) | Reading list | ссылки по неделям |
 

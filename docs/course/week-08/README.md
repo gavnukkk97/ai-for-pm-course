@@ -16,6 +16,8 @@
 
 **SUL:** Защита: [`../sul/templates/s5-defense-rubric.md`](../sul/templates/s5-defense-rubric.md) → **S5**.
 
+**После курса:** [`../monday-survival-checklist.md`](../monday-survival-checklist.md) — понедельник: n8n digest · один skill · одна SUL-гигиена.
+
 ## Файлы папки
 
 | Файл | Роль |

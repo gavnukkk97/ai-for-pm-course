@@ -8,6 +8,7 @@
 
 ## Путь на неделю
 
+0. [`../cold-start-triage.md`](../cold-start-triage.md) — ветка: live / idea-only / NDA / no-Docker  
 1. [`student-brief.md`](./student-brief.md) — что сделать и сдать  
 2. [`homework.md`](./homework.md) — домашнее задание  
 3. [`checklist.md`](./checklist.md) — критерии приёмки  

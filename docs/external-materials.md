@@ -24,7 +24,7 @@
 | 10 | ИИ-агенты как продукт (YouTube) | https://www.youtube.com/watch?v=Ieq8cY0UcHo | Агенты как продукт + skills + ошибки масштаба — тон Н4/Н7 | Н4, Н7 | RU | Free | Link only |
 | 11 | AI Agents for Product Leaders (LinkedIn Learning, Marily Nika) | https://www.linkedin.com/learning/ai-agents-for-product-leaders | Короткий (29м) каркас: agentic products, ethics, launch | Н0, Н4 | EN | Paid (LI Learning) | No |
 | 12 | Building synthetic users… (YouTube) | https://www.youtube.com/watch?v=b4MUT_NSq7M | Демо synthetic users для research | SUL, Н2 | EN | Free | Link only |
-| 13 | **Cursor Agent Skills (docs)** | https://cursor.com/docs/skills | Офиц. контракт skills для Н1 (Cursor track) | Н1 | EN | Free | Yes — [`cursor-skills-docs.md`](./materials-snapshots/cursor-skills-docs.md) |
+| 13 | **Cursor Agent Skills (docs)** | https://cursor.com/docs/skills | Офиц. контракт skills для Н1 (Cursor track) | Н1 | EN | Free | Yes — snapshot _(не в репо — см. URL)_ |
 | 14 | **Claude Code — custom skills** | https://code.claude.com/docs/en/custom-skills | Офиц. skills + CLAUDE.md для Н1 (Claude track) | Н1 | EN | Free | Yes — snapshot |
 | 15 | **n8n AI intro + Webhook + Read/Write File** | https://docs.n8n.io/advanced-ai/intro-tutorial/ · webhook · readwritefile | Ядро n8n flow #1 | Н1, SUL S0 | EN | Free | Yes — snapshots |
 | 16 | **deanpeters/Product-Manager-Skills** | https://github.com/deanpeters/Product-Manager-Skills | Альтернатива/дополнение phuryn; 49 skills, Claude+Codex | Н1–Н5 | EN | Free (OSS) | Yes — README snapshot |
@@ -75,18 +75,18 @@
 
 | Title | URL | Why useful | Module | Lang | Free/Paid | Downloadable |
 |---|---|---|---|---|---|---|
-| Cursor Agent Skills | https://cursor.com/docs/skills | Skills dirs, SKILL.md frontmatter, vs rules | Н1 | EN | Free | [`cursor-skills-docs.md`](./materials-snapshots/cursor-skills-docs.md) |
+| Cursor Agent Skills | https://cursor.com/docs/skills | Skills dirs, SKILL.md frontmatter, vs rules | Н1 | EN | Free | `cursor-skills-docs.md` _(не в репо — см. URL)_ |
 | Cursor Rules | https://cursor.com/docs/rules | AGENTS.md / project rules | Н0–Н1 | EN | Free | Link |
-| Claude Code Quickstart | https://code.claude.com/docs/en/quickstart | Установка CLI | Н0 | EN | Free | [`claude-code-quickstart.md`](./materials-snapshots/claude-code-quickstart.md) |
-| Claude Code custom skills | https://code.claude.com/docs/en/custom-skills | SKILL.md для Claude track | Н1 | EN | Free | [`claude-code-custom-skills.md`](./materials-snapshots/claude-code-custom-skills.md) |
+| Claude Code Quickstart | https://code.claude.com/docs/en/quickstart | Установка CLI | Н0 | EN | Free | `claude-code-quickstart.md` _(не в репо — см. URL)_ |
+| Claude Code custom skills | https://code.claude.com/docs/en/custom-skills | SKILL.md для Claude track | Н1 | EN | Free | `claude-code-custom-skills.md` _(не в репо — см. URL)_ |
 | Claude Code memory / CLAUDE.md | https://code.claude.com/docs/en/claude-md | Постоянный контекст проекта | Н1 | EN | Free | Link |
-| Agent Skills spec | https://agentskills.io/specification | Портабельный стандарт | Н1 | EN | Free | [`agentskills-specification.md`](./materials-snapshots/agentskills-specification.md) |
-| n8n — choose how to use | https://docs.n8n.io/choose-how-to-use-n8n/ | Cloud vs self-host | Н0 | EN | Free | [`n8n-choose-how-to-use.md`](./materials-snapshots/n8n-choose-how-to-use.md) |
-| n8n Docker install | https://docs.n8n.io/hosting/installation/docker/ | Local setup | Н0 | EN | Free | [`n8n-docker-install-extracted.md`](./materials-snapshots/n8n-docker-install-extracted.md) |
+| Agent Skills spec | https://agentskills.io/specification | Портабельный стандарт | Н1 | EN | Free | `agentskills-specification.md` _(не в репо — см. URL)_ |
+| n8n — choose how to use | https://docs.n8n.io/choose-how-to-use-n8n/ | Cloud vs self-host | Н0 | EN | Free | `n8n-choose-how-to-use.md` _(не в репо — см. URL)_ |
+| n8n Docker install | https://docs.n8n.io/hosting/installation/docker/ | Local setup | Н0 | EN | Free | `n8n-docker-install-extracted.md` _(не в репо — см. URL)_ |
 | n8n AI intro tutorial | https://docs.n8n.io/advanced-ai/intro-tutorial/ | Agent node + chat model + memory | Н1 | EN | Free | Link (HTML; md extract noisy) |
-| n8n Webhook node | https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.webhook/ | Триггер flow #1 | Н1 | EN | Free | [`n8n-webhook-node.md`](./materials-snapshots/n8n-webhook-node.md) |
-| n8n Read/Write Files | https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.readwritefile/ | Артефакт на диск | Н1 | EN | Free | [`n8n-readwritefile-node.md`](./materials-snapshots/n8n-readwritefile-node.md) |
-| n8n blog — AI agents | https://blog.n8n.io/ai-agents/ | Обзор агентов в n8n | Н1 | EN | Free | [`n8n-blog-ai-agents-excerpt.md`](./materials-snapshots/n8n-blog-ai-agents-excerpt.md) |
+| n8n Webhook node | https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.webhook/ | Триггер flow #1 | Н1 | EN | Free | `n8n-webhook-node.md` _(не в репо — см. URL)_ |
+| n8n Read/Write Files | https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.readwritefile/ | Артефакт на диск | Н1 | EN | Free | `n8n-readwritefile-node.md` _(не в репо — см. URL)_ |
+| n8n blog — AI agents | https://blog.n8n.io/ai-agents/ | Обзор агентов в n8n | Н1 | EN | Free | `n8n-blog-ai-agents-excerpt.md` _(не в репо — см. URL)_ |
 
 ---
 
@@ -109,17 +109,17 @@
 
 | Title | URL | Why useful | Module | Lang | Free/Paid | Downloadable |
 |---|---|---|---|---|---|---|---|
-| AgentA/B paper | https://arxiv.org/abs/2504.09723 | Претест гипотез LLM-агентами | SUL | EN | Free | [`materials-snapshots/agent-ab-arxiv.pdf`](./materials-snapshots/agent-ab-arxiv.pdf) |
-| SSR purchase intent | https://arxiv.org/abs/2510.08338 | Методика market eval | Н4, SUL | EN | Free | [`ssr-purchase-intent-arxiv.pdf`](./materials-snapshots/ssr-purchase-intent-arxiv.pdf) |
-| SimAB | https://arxiv.org/abs/2603.01024 | Симуляция A/B + accuracy study | SUL | EN | Free | [`simab-arxiv.pdf`](./materials-snapshots/simab-arxiv.pdf) |
-| voice-of-agents | https://github.com/blakeaber/voice-of-agents | Pipeline + eval harness | SUL | EN | Free | [`voice-of-agents-README.md`](./materials-snapshots/voice-of-agents-README.md) |
-| synthetic-market-research | https://github.com/BayramAnnakov/synthetic-market-research | Skill для synthetic surveys | Н4, SUL | EN | Free | [`synthetic-market-research-README.md`](./materials-snapshots/synthetic-market-research-README.md) |
-| semantic-similarity-rating | https://github.com/pymc-labs/semantic-similarity-rating | SSR lib | SUL S3 | EN | Free | [`semantic-similarity-rating-README.md`](./materials-snapshots/semantic-similarity-rating-README.md) |
-| phuryn/pm-skills | https://github.com/phuryn/pm-skills | Skills marketplace | Н1–Н7 | EN | Free | [`pm-skills-README.md`](./materials-snapshots/pm-skills-README.md) |
-| deanpeters/Product-Manager-Skills | https://github.com/deanpeters/Product-Manager-Skills | PM skills для Claude Code / Codex / Desktop | Н1–Н5 | EN | Free | [`deanpeters-pm-skills-README.md`](./materials-snapshots/deanpeters-pm-skills-README.md) |
+| AgentA/B paper | https://arxiv.org/abs/2504.09723 | Претест гипотез LLM-агентами | SUL | EN | Free | `materials-snapshots/agent-ab-arxiv.pdf` _(не в репо — см. URL)_ |
+| SSR purchase intent | https://arxiv.org/abs/2510.08338 | Методика market eval | Н4, SUL | EN | Free | `ssr-purchase-intent-arxiv.pdf` _(не в репо — см. URL)_ |
+| SimAB | https://arxiv.org/abs/2603.01024 | Симуляция A/B + accuracy study | SUL | EN | Free | `simab-arxiv.pdf` _(не в репо — см. URL)_ |
+| voice-of-agents | https://github.com/blakeaber/voice-of-agents | Pipeline + eval harness | SUL | EN | Free | `voice-of-agents-README.md` _(не в репо — см. URL)_ |
+| synthetic-market-research | https://github.com/BayramAnnakov/synthetic-market-research | Skill для synthetic surveys | Н4, SUL | EN | Free | `synthetic-market-research-README.md` _(не в репо — см. URL)_ |
+| semantic-similarity-rating | https://github.com/pymc-labs/semantic-similarity-rating | SSR lib | SUL S3 | EN | Free | `semantic-similarity-rating-README.md` _(не в репо — см. URL)_ |
+| phuryn/pm-skills | https://github.com/phuryn/pm-skills | Skills marketplace | Н1–Н7 | EN | Free | `pm-skills-README.md` _(не в репо — см. URL)_ |
+| deanpeters/Product-Manager-Skills | https://github.com/deanpeters/Product-Manager-Skills | PM skills для Claude Code / Codex / Desktop | Н1–Н5 | EN | Free | `deanpeters-pm-skills-README.md` _(не в репо — см. URL)_ |
 | satyapavan1/ai-pm-os | https://github.com/satyapavan1/ai-pm-os | Компактный Claude Code OS для PM (14 skills) | Н1, Н7 | EN | Free | Link only |
-| n8n-io/skills (agents TOOLS) | https://github.com/n8n-io/skills | Офиц. reference tool-design для AI Agent node | Н1 | EN | Free | [`n8n-agents-tools-ref.md`](./materials-snapshots/n8n-agents-tools-ref.md) |
-| MCP intro | https://modelcontextprotocol.io/docs/getting-started/intro | Внешние инструменты агента | Н1 | EN | Free | [`mcp-intro-extracted.md`](./materials-snapshots/mcp-intro-extracted.md) |
+| n8n-io/skills (agents TOOLS) | https://github.com/n8n-io/skills | Офиц. reference tool-design для AI Agent node | Н1 | EN | Free | `n8n-agents-tools-ref.md` _(не в репо — см. URL)_ |
+| MCP intro | https://modelcontextprotocol.io/docs/getting-started/intro | Внешние инструменты агента | Н1 | EN | Free | `mcp-intro-extracted.md` _(не в репо — см. URL)_ |
 | Synthetic Users (SaaS) | https://www.syntheticusers.com/ | Коммерческий бенчмарк «как делают» | SUL (сравнение) | EN | Freemium/Paid | Landing only |
 
 ---

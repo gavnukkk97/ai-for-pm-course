@@ -38,10 +38,13 @@
 | Шаг | Что открыть первым | Зачем |
 |---|---|---|
 | 1 | Этот README | карта курса |
-| 2 | [`docs/course/README.md`](docs/course/README.md) | индекс недель и файлов |
-| 3 | [`docs/course/week-00/`](docs/course/week-00/) → `student-brief.md` | старт онбординга |
-| 4 | Каждую неделю: **brief → homework → checklist** | практика и приёмка |
-| 5 | [`docs/course/sul/`](docs/course/sul/) | флагман SUL параллельно Н1–Н8 |
+| 2 | [`docs/course/cold-start-triage.md`](docs/course/cold-start-triage.md) | ветки: live / idea-only / NDA / no-Docker |
+| 3 | [`docs/course/README.md`](docs/course/README.md) | индекс недель и файлов |
+| 4 | [`docs/course/week-00/`](docs/course/week-00/) → `student-brief.md` | старт онбординга |
+| 5 | Каждую неделю: **brief → homework → checklist** | практика и приёмка |
+| 6 | [`docs/course/sul/`](docs/course/sul/) | флагман SUL параллельно Н1–Н8 |
+
+**Cold-start:** нет URL, NDA или нет Docker — не стоп. Сначала триаж → [`docs/course/cold-start-triage.md`](docs/course/cold-start-triage.md): что делаете каждую неделю и что заменяете.
 
 Подробная программа (зафиксирована): [`docs/program.md`](docs/program.md).
 
@@ -71,6 +74,9 @@ Reading list по модулям: [`docs/course/materials-by-module.md`](docs/co
 docs/course/
 ├── week-00/ … week-08/   ← недели (brief, ДЗ, checklist, …)
 ├── sul/                  ← Synthetic User Lab (S0→S5)
+├── cold-start-triage.md  ← ветки live / idea / NDA / no-Docker
+├── monday-survival-checklist.md ← ритуал после курса
+├── media/                ← манифест скринов (бинарники — от автора)
 ├── instructor/           ← playbook и эталоны (для преподавателей)
 └── materials-by-module.md
 docs/program.md           ← утверждённая программа
@@ -89,8 +95,17 @@ docs/external-materials.md
 
 ## С чего начать прямо сейчас
 
-1. Откройте [`docs/course/week-00/student-brief.md`](docs/course/week-00/student-brief.md).  
-2. Поднимите harness (≥1) и n8n, напишите 1-pager своего продукта.  
-3. На Н1 скопируйте каркас [`docs/course/sul/`](docs/course/sul/) в **своё** репо.
+1. Отметьте ветку в [`docs/course/cold-start-triage.md`](docs/course/cold-start-triage.md) (live / idea / NDA / no-Docker).  
+2. Откройте [`docs/course/week-00/student-brief.md`](docs/course/week-00/student-brief.md).  
+3. Поднимите harness (≥1) и n8n (Docker **или** Cloud), напишите 1-pager своего продукта.  
+4. На Н1 скопируйте каркас [`docs/course/sul/`](docs/course/sul/) в **своё** репо.
+
+На GitHub достаточно читать markdown в браузере; для сдачи удобнее clone/fork своего рабочего репо и копировать туда каркас `sul/`. Файлы `docs/local-push-brief*.md` и `HANDOFF-README.md` — служебные для авторов, студенту не нужны.
 
 Вопросы по сетке и анти-скоупу — в [`docs/program.md`](docs/program.md).
+
+---
+
+## Что дальше после курса
+
+Еженедельный ритуал (n8n digest · один skill · одна SUL-гигиена): [`docs/course/monday-survival-checklist.md`](docs/course/monday-survival-checklist.md). Также в конце [`Н8`](docs/course/week-08/).

@@ -79,6 +79,8 @@
 
 [`checklist.md`](./checklist.md) · рубрика [`../sul/templates/s5-defense-rubric.md`](../sul/templates/s5-defense-rubric.md).
 
+После защиты: [`../monday-survival-checklist.md`](../monday-survival-checklist.md).
+
 ---
 
 ## Оценка часов
