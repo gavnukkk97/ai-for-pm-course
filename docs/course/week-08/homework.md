@@ -90,3 +90,9 @@
 | Defense pack | 1,5–2,5 |
 | Репетиция talk-track | 0,5–1 |
 | **Итого** | **4–6** |
+
+<!-- week-nav -->
+---
+
+**Навигация:** [Н8 индекс](./README.md) · [brief](./student-brief.md) · [checklist](./checklist.md) · · капстоун ·
+

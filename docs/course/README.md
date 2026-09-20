@@ -1,91 +1,80 @@
 # Материалы курса «AI для продакта»
 
-Студенческая выдача. Программа зафиксирована в [`../ai-for-pm-course-program.md`](../ai-for-pm-course-program.md) — **не переписываем сетку**, только наполняем практику.
+Студенческая выдача. Программа: [`../program.md`](../program.md) — **сетку недель не переписываем**, только наполняем практику.
 
 **Одна фраза:** прошлые курсы учат *считать*; этот — *собрать AI-контур продакта* (harness + n8n) и **Synthetic User Lab** на своём продукте. Демо преподавателей — на стенде **Ритм**.
 
 ---
 
-## Карта папки → 8 недель + SUL
+## Быстрый старт
 
-| Папка | Неделя / веха | Статус производства |
+1. Вернитесь к корневому [`README.md`](../../README.md), если ещё не читали «что получите».  
+2. Начните с [`week-00/`](./week-00/) → `student-brief.md`.  
+3. Каждую неделю идите по цепочке: **brief → homework → checklist**.  
+4. С Н1 ведите флагман в [`sul/`](./sul/) (вехи S0→S5).
+
+```mermaid
+flowchart LR
+  N0["Н0"] --> N1["Н1"] --> N2["Н2"] --> N3["Н3"] --> N4["Н4"]
+  N4 --> N5["Н5"] --> N6["Н6"] --> N7["Н7"] --> N8["Н8"]
+  N1 -.-> S0["S0"]
+  N2 -.-> S1["S1"]
+  N3 -.-> S2["S2"]
+  N4 -.-> S3["S3"]
+  N6 -.-> S4["S4"]
+  N8 -.-> S5["S5"]
+```
+
+---
+
+## Карта папок
+
+| Папка | Неделя / веха | Для студента |
 |---|---|---|
-| [`week-00/`](./week-00/) | **Н0** async-онбординг: env, LLM, договор «AI ≠ вывод», 1-pager своего продукта | draft v1 · лекция · ДЗ · **слайды** [`slides.md`](./week-00/slides.md) |
-| [`week-01/`](./week-01/) | **Н1** AI-экзоскелет: fluency ≥1 harness, skill, n8n flow #1, **S0** | draft v1 · лекция · ДЗ · **слайды** [`slides.md`](./week-01/slides.md) |
-| [`week-02/`](./week-02/) | **Н2** ICP / конкуренты / УТП → банк персон (**S1** старт) | draft v1 · лекция · ДЗ · **слайды** [`slides.md`](./week-02/slides.md) |
-| [`week-03/`](./week-03/) | **Н3** Discovery + Минто → гипотезы, digest, **S2** старт | draft v1 · лекция · ДЗ · **слайды** [`slides.md`](./week-03/slides.md) |
-| [`week-04/`](./week-04/) | **Н4** AI-ставки / стратегия → sizing + tornado (**S3**) | draft v1 · лекция · ДЗ · **слайды** [`slides.md`](./week-04/slides.md) |
-| [`week-05/`](./week-05/) | **Н5** Дерево метрик / юнит / 3 сценария | draft v1 · лекция · ДЗ · **слайды** [`slides.md`](./week-05/slides.md) |
-| [`week-06/`](./week-06/) | **Н6** Bare vs rich аналитика → **S4** старт (protocol) | draft v1 · лекция · ДЗ · **слайды** [`slides.md`](./week-06/slides.md) |
-| [`week-07/`](./week-07/) | **Н7** Питч + претест ≥50–100 (**S4**) | draft v1 · лекция · ДЗ · **слайды** [`slides.md`](./week-07/slides.md) |
-| [`week-08/`](./week-08/) | **Н8** Капстоун / защита (**S5**) | draft v1 · лекция · ДЗ · **слайды** [`slides.md`](./week-08/slides.md) |
-| [`sul/`](./sul/) | Флагман **S0→S5**: scaffold + шаблоны S1–S5 + n8n #1–#3 + S4 runner + unit-sheet CSV + EXAMPLE S5 | draft v2 + P2 |
-| [`instructor/`](./instructor/) | Playbook 0–8 + **эталоны Ритм** + screencast shot-list | v2 + P2 |
-| [`materials-by-module.md`](./materials-by-module.md) | Reading list + gaps по каждой неделе | живой индекс |
+| [`week-00/`](./week-00/) | **Н0** async-онбординг | [`README`](./week-00/README.md) · brief · ДЗ · checklist |
+| [`week-01/`](./week-01/) | **Н1** AI-экзоскелет + **S0** | [`README`](./week-01/README.md) · brief · ДЗ · checklist |
+| [`week-02/`](./week-02/) | **Н2** ICP → **S1** старт | [`README`](./week-02/README.md) · brief · ДЗ · checklist |
+| [`week-03/`](./week-03/) | **Н3** Discovery → **S2** | [`README`](./week-03/README.md) · brief · ДЗ · checklist |
+| [`week-04/`](./week-04/) | **Н4** AI-ставки → **S3** | [`README`](./week-04/README.md) · brief · ДЗ · checklist |
+| [`week-05/`](./week-05/) | **Н5** Метрики / юнит | [`README`](./week-05/README.md) · brief · ДЗ · checklist |
+| [`week-06/`](./week-06/) | **Н6** Аналитика → **S4** | [`README`](./week-06/README.md) · brief · ДЗ · checklist |
+| [`week-07/`](./week-07/) | **Н7** Питч + претест | [`README`](./week-07/README.md) · brief · ДЗ · checklist |
+| [`week-08/`](./week-08/) | **Н8** Капстоун **S5** | [`README`](./week-08/README.md) · brief · ДЗ · checklist |
+| [`sul/`](./sul/) | Флагман **S0→S5** | starter kit, шаблоны, n8n, runner |
+| [`instructor/`](./instructor/) | Только преподавателям | playbook, эталоны Ритм, shot-list |
+| [`materials-by-module.md`](./materials-by-module.md) | Reading list | ссылки по неделям |
 
-Внешние источники и снапшоты: [`../external-materials.md`](../external-materials.md), [`../materials-snapshots/`](../materials-snapshots/).
-
-**Instructor pack (v2):** [`instructor/playbook-0-8.md`](./instructor/playbook-0-8.md) · [`instructor/rhythm-exemplars/`](./instructor/rhythm-exemplars/) · n8n [`sul/n8n/`](./sul/n8n/) · runner [`sul/runners/`](./sul/runners/).  
-Локальный синк в GitHub: [`../local-push-brief.md`](../local-push-brief.md).
+Внешние источники: [`../external-materials.md`](../external-materials.md).
 
 ---
 
 ## Что в каждой недельной папке
 
-Ориентир тона — уроки «Ритм» (`product-analytics-ai-course`) и AgentA/B (`stats-ab-course` 4.6): коротко, с критериями приёмки, без воды.
-
 | Файл | Для кого | Содержание |
 |---|---|---|
-| `lecture.md` | преподаватель | скрипт живой лекции ~1,5 ч (Н0 — короче, async): нарратив, демо, доска, ловушки |
-| `slides.md` | преподаватель | markdown-колода (~15–25 слайдов; Н0 короче) для paste в Google Slides / Marp / Pitch |
-| `homework.md` | студент | ДЗ недели: задачи, артефакты, приёмка, оценка часов, ссылки на brief/SUL |
-| `homework-key.md` | преподаватель | ключ/рубрика: quality bar, частые провалы, чеклист оценки (без полных «ответов») |
-| `lesson-outline.md` | преподаватель + студент | цели, тайминг, теория-скелет, практика, mermaid |
-| `student-brief.md` | студент | что сделать за неделю, артефакты, как сдавать |
-| `instructor-notes.md` | преподаватель | демо на **Ритме**, типичные сбои, что не показывать |
-| `checklist.md` | оба | приёмка недели |
+| `README.md` | студент | индекс недели + prev/next |
+| `student-brief.md` | студент | что сделать за неделю, артефакты, сдача |
+| `homework.md` | студент | ДЗ: задачи, приёмка, оценка часов |
+| `checklist.md` | оба | критерии приёмки недели |
+| `lesson-outline.md` | оба | цели, тайминг, теория-скелет |
+| `lecture.md` | преподаватель | скрипт живой лекции ~1,5 ч |
+| `slides.md` | преподаватель | markdown-колода для Google Slides / Marp |
+| `instructor-notes.md` | преподаватель | демо на Ритме, типичные сбои |
+| `homework-key.md` | преподаватель | рубрика оценки (не «ответы») |
 
-### Лекции по неделям
+### Прямые ссылки: briefs / ДЗ / слайды
 
-| Неделя | Скрипт |
-|---|---|
-| Н0 | [`week-00/lecture.md`](./week-00/lecture.md) |
-| Н1 | [`week-01/lecture.md`](./week-01/lecture.md) |
-| Н2 | [`week-02/lecture.md`](./week-02/lecture.md) |
-| Н3 | [`week-03/lecture.md`](./week-03/lecture.md) |
-| Н4 | [`week-04/lecture.md`](./week-04/lecture.md) |
-| Н5 | [`week-05/lecture.md`](./week-05/lecture.md) |
-| Н6 | [`week-06/lecture.md`](./week-06/lecture.md) |
-| Н7 | [`week-07/lecture.md`](./week-07/lecture.md) |
-| Н8 | [`week-08/lecture.md`](./week-08/lecture.md) |
-
-### Домашние задания (+ ключи)
-
-| Неделя | Студент | Ключ instructor |
-|---|---|---|
-| Н0 | [`week-00/homework.md`](./week-00/homework.md) | [`week-00/homework-key.md`](./week-00/homework-key.md) |
-| Н1 | [`week-01/homework.md`](./week-01/homework.md) | [`week-01/homework-key.md`](./week-01/homework-key.md) |
-| Н2 | [`week-02/homework.md`](./week-02/homework.md) | [`week-02/homework-key.md`](./week-02/homework-key.md) |
-| Н3 | [`week-03/homework.md`](./week-03/homework.md) | [`week-03/homework-key.md`](./week-03/homework-key.md) |
-| Н4 | [`week-04/homework.md`](./week-04/homework.md) | [`week-04/homework-key.md`](./week-04/homework-key.md) |
-| Н5 | [`week-05/homework.md`](./week-05/homework.md) | [`week-05/homework-key.md`](./week-05/homework-key.md) |
-| Н6 | [`week-06/homework.md`](./week-06/homework.md) | [`week-06/homework-key.md`](./week-06/homework-key.md) |
-| Н7 | [`week-07/homework.md`](./week-07/homework.md) | [`week-07/homework-key.md`](./week-07/homework-key.md) |
-| Н8 | [`week-08/homework.md`](./week-08/homework.md) | [`week-08/homework-key.md`](./week-08/homework-key.md) |
-
-### Слайды по неделям
-
-| Неделя | Колода |
-|---|---|
-| Н0 | [`week-00/slides.md`](./week-00/slides.md) |
-| Н1 | [`week-01/slides.md`](./week-01/slides.md) |
-| Н2 | [`week-02/slides.md`](./week-02/slides.md) |
-| Н3 | [`week-03/slides.md`](./week-03/slides.md) |
-| Н4 | [`week-04/slides.md`](./week-04/slides.md) |
-| Н5 | [`week-05/slides.md`](./week-05/slides.md) |
-| Н6 | [`week-06/slides.md`](./week-06/slides.md) |
-| Н7 | [`week-07/slides.md`](./week-07/slides.md) |
-| Н8 | [`week-08/slides.md`](./week-08/slides.md) |
+| Нед. | Brief | ДЗ | Слайды |
+|---|---|---|---|
+| Н0 | [`brief`](./week-00/student-brief.md) | [`ДЗ`](./week-00/homework.md) | [`slides`](./week-00/slides.md) |
+| Н1 | [`brief`](./week-01/student-brief.md) | [`ДЗ`](./week-01/homework.md) | [`slides`](./week-01/slides.md) |
+| Н2 | [`brief`](./week-02/student-brief.md) | [`ДЗ`](./week-02/homework.md) | [`slides`](./week-02/slides.md) |
+| Н3 | [`brief`](./week-03/student-brief.md) | [`ДЗ`](./week-03/homework.md) | [`slides`](./week-03/slides.md) |
+| Н4 | [`brief`](./week-04/student-brief.md) | [`ДЗ`](./week-04/homework.md) | [`slides`](./week-04/slides.md) |
+| Н5 | [`brief`](./week-05/student-brief.md) | [`ДЗ`](./week-05/homework.md) | [`slides`](./week-05/slides.md) |
+| Н6 | [`brief`](./week-06/student-brief.md) | [`ДЗ`](./week-06/homework.md) | [`slides`](./week-06/slides.md) |
+| Н7 | [`brief`](./week-07/student-brief.md) | [`ДЗ`](./week-07/homework.md) | [`slides`](./week-07/slides.md) |
+| Н8 | [`brief`](./week-08/student-brief.md) | [`ДЗ`](./week-08/homework.md) | [`slides`](./week-08/slides.md) |
 
 ---
 
@@ -96,25 +85,19 @@
 3. **n8n** — local или cloud; с Н1 — рабочий flow #1 (+ digests на Н3/Н6).  
 4. **SUL-репо** — структура из [`sul/`](./sul/) под свой продукт, вехи S0→S5.
 
-Преподаватели параллельно гоняют тот же конвейер на Ритме (эталон, не замена кейса студента).
-
 ---
 
-## Анти-скоуп (напоминание)
+## Анти-скоуп
 
 - не повтор JTBD / юнит / АБ «с нуля»;  
 - n8n ≠ курс автопостинга;  
-- облака Mail.ru / Яндекс — **не** в студенческой выдаче;  
-- синтетика ≠ живой трафик (слайд границ на каждой SUL-вехе).
+- синтетика ≠ живой трафик (границы на каждой SUL-вехе).
 
 ---
 
-## Дальше по производству
+## Для преподавателей
 
-**Шаг 1/4 (лекции)** — **готово.**  
-**Шаг 2/4 (homework)** — **готово.**  
-**Шаг 3/4 (слайды)** — **готово.**  
-**Шаг 4/4 (P2)** — **готово:** EXAMPLE S5 · mermaid в briefs Н2–Н8 · unit-sheet CSV · shot-list скринкаста (видео — автор).
-
-**Sequential pack complete.** Синк всех handoff в main: [`../local-push-brief-steps-1-4.md`](../local-push-brief-steps-1-4.md).  
-P2 only: [`../local-push-brief-p2.md`](../local-push-brief-p2.md) · слайды / ДЗ / лекции / v2 — отдельные briefs · статус: [`../../internal/materials-production.md`](../../internal/materials-production.md).
+- Playbook: [`instructor/playbook-0-8.md`](./instructor/playbook-0-8.md)  
+- Эталоны Ритм: [`instructor/rhythm-exemplars/`](./instructor/rhythm-exemplars/)  
+- n8n: [`sul/n8n/`](./sul/n8n/) · runner: [`sul/runners/`](./sul/runners/)  
+- QA производства: [`../course-qa-report.md`](../course-qa-report.md)

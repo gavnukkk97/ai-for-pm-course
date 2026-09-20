@@ -83,3 +83,9 @@ flowchart LR
 ## Критерии
 
 [`checklist.md`](./checklist.md).
+
+<!-- week-nav -->
+---
+
+**Навигация:** [← Н7](../week-07/) · [Н8 индекс](./README.md) · · капстоун · · [курс](../README.md) · [SUL](../sul/)
+

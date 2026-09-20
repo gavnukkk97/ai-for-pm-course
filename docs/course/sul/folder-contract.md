@@ -7,16 +7,16 @@
 ```mermaid
 flowchart TB
   ROOT["sul/ или sul-lab/"]
-  ROOT --> personas["personas/\nбанк персон S1+"]
-  ROOT --> hypotheses["hypotheses/\nX→Y→Z S2+"]
-  ROOT --> runs["runs/\nлоги прогонов S2+"]
-  ROOT --> skills["skills/\nпроцедуры harness S0+"]
-  ROOT --> n8n["n8n/\nexport без секретов S0+"]
-  ROOT --> templates["templates/\nмемо / отчёты"]
-  ROOT --> evals["evals/\ngolden cases S0+"]
+  ROOT --> personas["personas/<br/>банк персон S1+"]
+  ROOT --> hypotheses["hypotheses/<br/>X→Y→Z S2+"]
+  ROOT --> runs["runs/<br/>логи прогонов S2+"]
+  ROOT --> skills["skills/<br/>процедуры harness S0+"]
+  ROOT --> n8n["n8n/<br/>export без секретов S0+"]
+  ROOT --> templates["templates/<br/>мемо / отчёты"]
+  ROOT --> evals["evals/<br/>golden cases S0+"]
   hypotheses --> runs
   personas --> runs
-  runs --> memo["decision memo\nS3–S5"]
+  runs --> memo["decision memo<br/>S3–S5"]
 ```
 
 ## Корневые директории
@@ -71,9 +71,9 @@ flowchart TB
 
 ```mermaid
 flowchart LR
-  P["Persona\npersonas/"] --> H["Hypothesis\nhypotheses/Hnn"]
-  H --> R["Run\nruns/YYYYMMDD-…"]
-  R --> M["Decision memo\ntemplates/"]
+  P["Persona<br/>personas/"] --> H["Hypothesis<br/>hypotheses/Hnn"]
+  H --> R["Run<br/>runs/YYYYMMDD-id"]
+  R --> M["Decision memo<br/>templates/"]
   M --> V{"Вердикт"}
   V -->|supports / rejects| Next["Живой шаг"]
   V -->|inconclusive| More["Досбор / калибровка"]

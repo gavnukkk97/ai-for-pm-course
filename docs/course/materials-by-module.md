@@ -1,6 +1,6 @@
 # Материалы по модулям (reading list + gaps)
 
-Индекс для производства и для студентов. База внешних ссылок: [`../external-materials.md`](../external-materials.md). Снапшоты: [`../materials-snapshots/`](../materials-snapshots/).
+Индекс для производства и для студентов. База внешних ссылок: [`../external-materials.md`](../external-materials.md). Локальные снапшоты `docs/materials-snapshots/` в этом репо пока **не синкнуты** — опирайтесь на живые URL в каталоге.
 
 Легенда статусов gap: **filled** · **thin** · **todo**.
 
@@ -10,10 +10,10 @@
 
 | Тип | Материал | Обязательность | Gap |
 |---|---|---|---|
-| Docs | [Claude Code Quickstart](https://code.claude.com/docs/en/quickstart) · snapshot [`claude-code-quickstart.md`](../materials-snapshots/claude-code-quickstart.md) | если выбран Claude Code | filled |
+| Docs | [Claude Code Quickstart](https://code.claude.com/docs/en/quickstart) | если выбран Claude Code | filled |
 | Docs | Cursor install + Agent chat (сайт Cursor) | если выбран Cursor | filled (link) |
-| Docs | [Choose how to use n8n](https://docs.n8n.io/choose-how-to-use-n8n/) · snapshot | да | filled |
-| Docs | [n8n Docker install](https://docs.n8n.io/hosting/installation/docker/) · snapshot extract | local path | filled |
+| Docs | [Choose how to use n8n](https://docs.n8n.io/choose-how-to-use-n8n/) | да | filled |
+| Docs | [n8n Docker install](https://docs.n8n.io/hosting/installation/docker/) | local path | filled |
 | Prior course | `product-analytics-ai-course` → student-getting-started / stand (тур Ритм) | instructor | filled |
 | YT | [6 способов AI для PM](https://www.youtube.com/watch?v=ET3z8wSNUiA) | опц. | filled |
 | YT | [AI-Native PM webinar](https://www.youtube.com/watch?v=Xp_iIkt94TQ) | опц. | filled |
@@ -29,20 +29,20 @@
 
 | Тип | Материал | Обязательность | Gap |
 |---|---|---|---|
-| Docs | [Cursor Skills](https://cursor.com/docs/skills) · snapshot | Cursor track | filled |
-| Docs | [Claude Code custom skills](https://code.claude.com/docs/en/custom-skills) · snapshot | Claude track | filled |
-| Spec | [Agent Skills specification](https://agentskills.io/specification) · snapshot | опц. | filled |
-| Docs | [MCP intro](https://modelcontextprotocol.io/docs/getting-started/intro) · snapshot | skim | filled |
-| GitHub | [phuryn/pm-skills](https://github.com/phuryn/pm-skills) · README snapshot | выборочно | filled |
-| GitHub | [deanpeters/Product-Manager-Skills](https://github.com/deanpeters/Product-Manager-Skills) · snapshot | альт. библиотека | filled |
+| Docs | [Cursor Skills](https://cursor.com/docs/skills) | Cursor track | filled |
+| Docs | [Claude Code custom skills](https://code.claude.com/docs/en/custom-skills) | Claude track | filled |
+| Spec | [Agent Skills specification](https://agentskills.io/specification) | опц. | filled |
+| Docs | [MCP intro](https://modelcontextprotocol.io/docs/getting-started/intro) | skim | filled |
+| GitHub | [phuryn/pm-skills](https://github.com/phuryn/pm-skills) | выборочно | filled |
+| GitHub | [deanpeters/Product-Manager-Skills](https://github.com/deanpeters/Product-Manager-Skills) | альт. библиотека | filled |
 | Medium | [Why PM care about Agent Harness](https://medium.com/design-bootcamp/why-should-pm-care-about-agent-harness-5e4a5ae5a1ee) | пересказ на занятии | thin (no full dump) |
 | YT | [Claude for PMs](https://www.youtube.com/watch?v=bITUsUsrxjM) | реком. | filled |
 | YT | [Why Every PM Must Use Claude Code](https://www.youtube.com/watch?v=hLYK28IlvyE) | опц. | filled |
 | Docs | [n8n AI intro tutorial](https://docs.n8n.io/advanced-ai/intro-tutorial/) | да | filled (link; extract noisy) |
-| Docs | [Webhook](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.webhook/) · snapshot | да | filled |
-| Docs | [Read/Write Files](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.readwritefile/) · snapshot | self-hosted | filled |
-| Blog | [n8n: AI Agents Explained](https://blog.n8n.io/ai-agents/) · excerpt snapshot | опц. | filled |
-| GitHub | [n8n-io/skills TOOLS ref](https://github.com/n8n-io/skills) · snapshot | instructor | filled |
+| Docs | [Webhook](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.webhook/) | да | filled |
+| Docs | [Read/Write Files](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.readwritefile/) | self-hosted | filled |
+| Blog | [n8n: AI Agents Explained](https://blog.n8n.io/ai-agents/) | опц. | filled |
+| GitHub | [n8n-io/skills TOOLS ref](https://github.com/n8n-io/skills) | instructor | filled |
 | Paper | AgentA/B abstract + PDF | границы SUL | filled |
 | Our | [`sul/`](./sul/) S0 kit · [`week-01/`](./week-01/) | да | filled |
 
@@ -75,7 +75,7 @@
 
 | Тип | Материал | Обязательность | Gap |
 |---|---|---|---|
-| GitHub | [voice-of-agents](https://github.com/blakeaber/voice-of-agents) · README snapshot | ethics | filled |
+| GitHub | [voice-of-agents](https://github.com/blakeaber/voice-of-agents) | ethics | filled |
 | YT | [6 способов AI…](https://www.youtube.com/watch?v=ET3z8wSNUiA) | опц. | filled |
 | YT | [Feedback from synthetic users](https://www.youtube.com/watch?v=q_fdcbwHJKQ) | опц. | filled |
 | Prior | stats-ab 4.6 AgentA/B (between-subject) | да (конспект) | filled |
@@ -95,7 +95,7 @@
 
 | Тип | Материал | Обязательность | Gap |
 |---|---|---|---|
-| arXiv | [SSR purchase intent](https://arxiv.org/abs/2510.08338) · PDF snapshot | abstract | filled |
+| arXiv | [SSR purchase intent](https://arxiv.org/abs/2510.08338) | abstract | filled |
 | GitHub | [synthetic-market-research](https://github.com/BayramAnnakov/synthetic-market-research) | README | filled |
 | GitHub | [semantic-similarity-rating](https://github.com/pymc-labs/semantic-similarity-rating) | опц. | filled |
 | YT RU | [ИИ-агенты как продукт](https://www.youtube.com/watch?v=Ieq8cY0UcHo) | опц. | filled |

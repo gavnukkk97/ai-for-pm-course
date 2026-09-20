@@ -79,3 +79,9 @@
 ## Чтение
 
 Cursor Skills / Claude Code custom skills · [n8n AI intro](https://docs.n8n.io/advanced-ai/intro-tutorial/) · AgentA/B abstract (границы).
+
+<!-- week-nav -->
+---
+
+**Навигация:** [Н1 индекс](./README.md) · [brief](./student-brief.md) · [checklist](./checklist.md) · [Н2 →](../week-02/)
+

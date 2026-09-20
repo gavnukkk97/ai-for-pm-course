@@ -83,3 +83,9 @@ Abstract [SSR](https://arxiv.org/abs/2510.08338) · README [synthetic-market-res
 | Tornado + decision | 1,5–2 |
 | Чтение / n8n QA | 0,5–1 |
 | **Итого** | **4–6** |
+
+<!-- week-nav -->
+---
+
+**Навигация:** [Н4 индекс](./README.md) · [brief](./student-brief.md) · [checklist](./checklist.md) · [Н5 →](../week-05/)
+

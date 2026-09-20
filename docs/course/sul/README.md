@@ -6,7 +6,7 @@
 
 ```mermaid
 flowchart LR
-  S0["S0 Scaffold\n← этот kit"] --> S1["S1 Personas"]
+  S0["S0 Scaffold<br/>← этот kit"] --> S1["S1 Personas"]
   S1 --> S2["S2 Hypotheses"]
   S2 --> S3["S3 Market"]
   S3 --> S4["S4 Pretest"]
@@ -115,6 +115,6 @@ Instructor эталоны Ритм (не копировать в студенч�
 
 ## Связанные материалы курса
 
-- Программа §3: [`../../ai-for-pm-course-program.md`](../../ai-for-pm-course-program.md)  
+- Программа §3: [`../../program.md`](../../program.md)  
 - Неделя 1: [`../week-01/`](../week-01/)  
 - Источники: [`../../external-materials.md`](../../external-materials.md)

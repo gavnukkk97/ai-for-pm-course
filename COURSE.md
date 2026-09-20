@@ -2,6 +2,6 @@
 
 Утверждённая программа: [`docs/program.md`](docs/program.md).
 
-Студенческий пакет: [`docs/course/`](docs/course/) — сейчас готовы **Н0**, **Н1** и scaffold **SUL S0**.
+Студенческий вход: корневой [`README.md`](README.md) → [`docs/course/`](docs/course/) (Н0–Н8 + SUL S0→S5).
 
 Внешние материалы: [`docs/external-materials.md`](docs/external-materials.md).

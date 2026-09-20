@@ -87,7 +87,7 @@ Manual Trigger  (или Webhook POST JSON)
 
 1. Cursor [Skills](https://cursor.com/docs/skills) *или* Claude Code [custom skills](https://code.claude.com/docs/en/custom-skills) — по вашему harness.  
 2. [MCP intro](https://modelcontextprotocol.io/docs/getting-started/intro) — 15 мин, без обязательной установки MCP на этой неделе.  
-3. AgentA/B abstract + границы: [`../../materials-snapshots/agent-ab-arxiv-abstract.md`](../../materials-snapshots/agent-ab-arxiv-abstract.md).  
+3. AgentA/B abstract + границы: [arXiv 2504.09723](https://arxiv.org/abs/2504.09723) (синтетика ≠ живой трафик).  
 4. Опционально видео: [Claude for PMs](https://www.youtube.com/watch?v=bITUsUsrxjM) (можно на 1.5×, фокус на skills/MCP).
 
 Полный список: [`../materials-by-module.md`](../materials-by-module.md).
@@ -97,3 +97,9 @@ Manual Trigger  (или Webhook POST JSON)
 ## Критерии приёмки
 
 См. [`checklist.md`](./checklist.md).
+
+<!-- week-nav -->
+---
+
+**Навигация:** [← Н0](../week-00/) · [Н1 индекс](./README.md) · [Н2 →](../week-02/) · [курс](../README.md) · [SUL](../sul/)
+

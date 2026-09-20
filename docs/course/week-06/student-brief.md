@@ -79,3 +79,9 @@ Schedule (напр. weekly)
 ## Критерии
 
 [`checklist.md`](./checklist.md).
+
+<!-- week-nav -->
+---
+
+**Навигация:** [← Н5](../week-05/) · [Н6 индекс](./README.md) · [Н7 →](../week-07/) · [курс](../README.md) · [SUL](../sul/)
+

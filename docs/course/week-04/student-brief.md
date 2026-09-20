@@ -72,3 +72,9 @@ Webhook/Manual: JSON допущений → LLM проверяет полнот�
 ## Критерии
 
 [`checklist.md`](./checklist.md).
+
+<!-- week-nav -->
+---
+
+**Навигация:** [← Н3](../week-03/) · [Н4 индекс](./README.md) · [Н5 →](../week-05/) · [курс](../README.md) · [SUL](../sul/)
+

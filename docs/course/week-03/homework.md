@@ -83,3 +83,9 @@ Import: [`flow-02-signals-to-digest.json`](../sul/n8n/flow-02-signals-to-digest.
 | Brief + evidence | 1–1,5 |
 | n8n #2 | 1–1,5 |
 | **Итого** | **4–6** |
+
+<!-- week-nav -->
+---
+
+**Навигация:** [Н3 индекс](./README.md) · [brief](./student-brief.md) · [checklist](./checklist.md) · [Н4 →](../week-04/)
+

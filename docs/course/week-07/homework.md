@@ -84,3 +84,9 @@ AgentA/B · SimAB abstract · pm-skills GTM skim.
 | Прогон N≥50 + отчёт | 2–3,5 |
 | Чтение | 0,5 |
 | **Итого** | **4–6** |
+
+<!-- week-nav -->
+---
+
+**Навигация:** [Н7 индекс](./README.md) · [brief](./student-brief.md) · [checklist](./checklist.md) · [Н8 →](../week-08/)
+
