@@ -30,4 +30,4 @@
 - [ ] Субтитры RU или чёткая дикция  
 - [ ] Ссылка проставлена в [`../materials-by-module.md`](../materials-by-module.md) §Н0  
 
-Пока видео нет — студентам достаточно официальных install-доков (уже в Н0 brief).
+Пока видео нет — студентам достаточно официальных install-доков (уже в Н0 brief) и slide-flow плейсхолдера: [`../media/placeholders/cursor-10min-screencast-outline.md`](../media/placeholders/cursor-10min-screencast-outline.md).

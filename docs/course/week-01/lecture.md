@@ -93,6 +93,8 @@ Evals-lite прямо сейчас: у пункта убираю owner. Пере
 
 «Тот же skill из `docs/course/sul/skills/backlog-status/`. Свой бэклог 5–10 пунктов из **своего** ONEPAGER, не семь пунктов про paywall Ритма. Evals кладёте в `evals/backlog-status.md`.»
 
+Плейсхолдер «папка skill + SKILL.md» (пока нет скрина): [`../media/placeholders/n1-skill-skillmd.md`](../media/placeholders/n1-skill-skillmd.md).
+
 ### 35–55 · n8n flow #1: glue, не SMM
 
 #### Зачем n8n рядом с harness
@@ -114,6 +116,8 @@ Evals-lite прямо сейчас: у пункта убираю owner. Пере
 5. Output / опционально Write File (self-hosted); на Cloud — копируем execution в `runs/n8n/flow01-last.md` руками и документируем.
 
 Execute с куском бэклога Ритма: ask = «сводка статусов + top-3 риска». На выходе — осмысленный Markdown, не lorem.
+
+Плейсхолдер canvas flow #1: [`../media/placeholders/n1-n8n-flow01-canvas.md`](../media/placeholders/n1-n8n-flow01-canvas.md).
 
 Underscore: webhook понадобится на S2/S4; сегодня зелёный Manual. Если credential падает — Mock Code node + пометка `MOCK_LLM=true` на S0 допустимы: важнее зелёный контур, чем живой GPT.»
 

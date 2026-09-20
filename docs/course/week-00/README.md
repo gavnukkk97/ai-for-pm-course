@@ -17,6 +17,8 @@
 
 **SUL:** SUL ещё не стартует — готовьте env и 1-pager.
 
+**Визуалы (пока плейсхолдеры):** [`../media/placeholders/n0-cursor-agent-hello.md`](../media/placeholders/n0-cursor-agent-hello.md) · [`../media/placeholders/n0-n8n-workflows-empty.md`](../media/placeholders/n0-n8n-workflows-empty.md) · [индекс media](../media/README.md).
+
 ## Файлы папки
 
 | Файл | Роль |

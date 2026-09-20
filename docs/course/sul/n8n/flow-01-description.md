@@ -29,6 +29,8 @@ sequenceDiagram
 
 На S0 достаточно **Manual Trigger**. Webhook оставьте в workflow для следующей недели (формы, CI, кнопка «пересобрать сводку»).
 
+**Плейсхолдер canvas (вместо скрина UI):** [`../../media/placeholders/n1-n8n-flow01-canvas.md`](../../media/placeholders/n1-n8n-flow01-canvas.md) — «плейсхолдер → заменить скрином».
+
 ## Узлы
 
 | # | Node | Зачем |

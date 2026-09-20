@@ -17,6 +17,8 @@
    - любой вывод про пользователей помечать: `live` / `synthetic` / `assumption`.
 2. Создайте skill `.cursor/skills/backlog-status/SKILL.md` — можно взять из [`../sul/skills/backlog-status/SKILL.md`](../sul/skills/backlog-status/SKILL.md).
 
+**Как выглядит папка skill + открытый `SKILL.md` (плейсхолдер, не фото UI):** [`../media/placeholders/n1-skill-skillmd.md`](../media/placeholders/n1-skill-skillmd.md).
+
 ### Claude Code
 
 1. `CLAUDE.md` в корне с теми же правилами.  
@@ -59,6 +61,8 @@ Manual Trigger  (или Webhook POST JSON)
 ```
 
 Подробное описание узлов и import: [`../sul/n8n/flow-01-description.md`](../sul/n8n/flow-01-description.md) · JSON: [`../sul/n8n/flow-01-webhook-to-artifact.json`](../sul/n8n/flow-01-webhook-to-artifact.json).
+
+**Как выглядит canvas flow #1 (плейсхолдер):** [`../media/placeholders/n1-n8n-flow01-canvas.md`](../media/placeholders/n1-n8n-flow01-canvas.md) — триггер → Set → LLM → wrap → артефакт.
 
 **Минимум приёмки flow #1:**
 
