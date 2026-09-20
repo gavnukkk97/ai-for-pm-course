@@ -1,9 +1,9 @@
-# Handoff: lecture scripts (step 1/4)
+# Handoff · AI для продакта — homework packs (step 2/4)
 
-Copy into https://github.com/gavnukkk97/ai-for-pm-course :
+Скопировать в `gavnukkk97/ai-for-pm-course` (cloud push туда = 403).
 
-- `docs/course/week-00…08/lecture.md`
-- `docs/course/README.md`
-- optional: `docs/local-push-brief-lectures.md`
+**Файлы:** `docs/course/week-*/homework.md`, `homework-key.md`, `docs/course/README.md`.
 
-See `docs/local-push-brief-lectures.md` for paste-ready local agent steps.
+Инструкция: [`docs/local-push-brief-homework.md`](./docs/local-push-brief-homework.md).
+
+Не включает slides/P2. Лекции — отдельный handoff `handoff/ai-for-pm-course-lectures`.
