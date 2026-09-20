@@ -2,6 +2,23 @@
 
 Этот файл — **источник правды** для агента и человека. Меняйте схему осознанно и версионируйте.
 
+## Карта контракта
+
+```mermaid
+flowchart TB
+  ROOT["sul/ или sul-lab/"]
+  ROOT --> personas["personas/\nбанк персон S1+"]
+  ROOT --> hypotheses["hypotheses/\nX→Y→Z S2+"]
+  ROOT --> runs["runs/\nлоги прогонов S2+"]
+  ROOT --> skills["skills/\nпроцедуры harness S0+"]
+  ROOT --> n8n["n8n/\nexport без секретов S0+"]
+  ROOT --> templates["templates/\nмемо / отчёты"]
+  ROOT --> evals["evals/\ngolden cases S0+"]
+  hypotheses --> runs
+  personas --> runs
+  runs --> memo["decision memo\nS3–S5"]
+```
+
 ## Корневые директории
 
 | Путь | Назначение | Кто пишет | Когда |
@@ -49,6 +66,18 @@
 2. Не удалять `runs/` без подтверждения человека.  
 3. Любая генерация персон проверяется против `persona.schema.json`.  
 4. Перед выводом «рекомендуем ship» — открыть [`validity-rubric-stub.md`](./validity-rubric-stub.md) и заполнить раздел честности.
+
+### Поток: персона → гипотеза → прогон → memo
+
+```mermaid
+flowchart LR
+  P["Persona\npersonas/"] --> H["Hypothesis\nhypotheses/Hnn"]
+  H --> R["Run\nruns/YYYYMMDD-…"]
+  R --> M["Decision memo\ntemplates/"]
+  M --> V{"Вердикт"}
+  V -->|supports / rejects| Next["Живой шаг"]
+  V -->|inconclusive| More["Досбор / калибровка"]
+```
 
 ## Связь с n8n
 

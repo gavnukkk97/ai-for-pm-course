@@ -3,6 +3,26 @@
 Срок: **до первого живого занятия** (неделя 0, async).  
 Сдача: ссылка на папку/репо с четырьмя артефактами ниже + скрин n8n «Workflows».
 
+### Env checklist (визуально)
+
+```mermaid
+flowchart LR
+  subgraph harness["1 · Harness"]
+    H1["Установка"] --> H2["hello.md от агента"]
+    H2 --> H3["verify.md руками"]
+  end
+  subgraph n8nbox["2 · n8n"]
+    N1["Docker или Cloud"] --> N2["Пустой workflow"]
+  end
+  subgraph product["3 · Продукт"]
+    P1["ONEPAGER.md"]
+  end
+  subgraph contract["4 · Договор"]
+    C1["ai-contract.md"]
+  end
+  harness --> n8nbox --> product --> contract
+```
+
 ---
 
 ## 1. Поднять harness (≥1)

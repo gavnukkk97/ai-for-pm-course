@@ -17,6 +17,33 @@
 3. Собран **n8n flow #1**: триггер (webhook *или* Manual) → LLM-шаг → артефакт (файл Markdown / строка в таблице).  
 4. Поднят **SUL S0**: структура папок + README + dry-run harness + n8n flow привязан к репо.
 
+### Архитектура недели: harness + n8n + S0
+
+```mermaid
+flowchart TB
+  P["product/ONEPAGER.md"]
+  subgraph harness["Harness"]
+    R["Rules / CLAUDE.md / AGENTS.md"]
+    S["Skill backlog-status"]
+    E["evals-lite ≥3 golden"]
+    R --> S --> E
+  end
+  subgraph n8n["n8n flow #1"]
+    T["Trigger Manual/Webhook"] --> L["LLM step"] --> A["Markdown-артефакт"]
+  end
+  subgraph s0["SUL S0"]
+    F["folder-contract"]
+    D["personas/ hypotheses/ runs/ skills/"]
+    N["SYNTHETIC-DATA-NOTICE"]
+    F --> D
+    F --> N
+  end
+  P --> harness
+  P --> n8n
+  harness --> s0
+  n8n --> s0
+```
+
 ---
 
 ## Теория коротко (слайды / 40–50 мин)

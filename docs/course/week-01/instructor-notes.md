@@ -19,6 +19,14 @@
 
 ---
 
+## Порядок демо
+
+```mermaid
+flowchart LR
+  A["A · Harness skill"] --> B["B · n8n flow #1"]
+  B --> C["C · S0 + этика"]
+```
+
 ## Скрипт A — Harness (15 мин)
 
 1. Открыть `AGENTS.md` / `CLAUDE.md`: правило «не выдумывать события Ритма».  
@@ -58,3 +66,10 @@
 ## Ops (не студентам)
 
 Идеи паттернов n8n/MCP из private Mail/Ya clouds — только вам. В выдачу попадает переписанное (этот brief + `sul/n8n`). Пароли у kir.
+
+---
+
+## Эталоны / playbook
+
+- Playbook Н1: [`../instructor/playbook-0-8.md`](../instructor/playbook-0-8.md)#н1--экзоскелет--n8n-1--s0-90-мин
+- n8n #1: [`../sul/n8n/flow-01-description.md`](../sul/n8n/flow-01-description.md)

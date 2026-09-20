@@ -1,5 +1,15 @@
 # Н1 · Checklist приёмки
 
+Четыре зелёных контура: **harness · skill/evals · n8n #1 · SUL S0**.
+
+```mermaid
+flowchart LR
+  H["Harness rules"] --> Sk["Skill + evals"]
+  Sk --> N["n8n flow #1"]
+  N --> S["SUL S0 README"]
+  S --> Done["Приёмка Н1"]
+```
+
 ## Harness
 
 - [ ] Rules / `CLAUDE.md` / `AGENTS.md` читают `product/ONEPAGER.md` и запрещают выдуманные метрики.  

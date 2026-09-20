@@ -34,6 +34,20 @@
 
 Цель: **триггер → LLM → Markdown-артефакт**.
 
+```mermaid
+sequenceDiagram
+  participant U as Студент
+  participant T as Trigger
+  participant S as Set normalize
+  participant L as LLM
+  participant O as Output / файл
+  U->>T: Manual Execute или POST JSON
+  T->>S: product_name, backlog_snippet, ask
+  S->>L: нормализованный prompt
+  L->>O: summary Markdown
+  Note over O: без API keys в git
+```
+
 Рекомендуемая схема (без секретов в git):
 
 ```
@@ -73,7 +87,7 @@ Manual Trigger  (или Webhook POST JSON)
 
 1. Cursor [Skills](https://cursor.com/docs/skills) *или* Claude Code [custom skills](https://code.claude.com/docs/en/custom-skills) — по вашему harness.  
 2. [MCP intro](https://modelcontextprotocol.io/docs/getting-started/intro) — 15 мин, без обязательной установки MCP на этой неделе.  
-3. AgentA/B abstract + границы: https://arxiv.org/abs/2504.09723 (и `sul/SYNTHETIC-DATA-NOTICE.md`).  
+3. AgentA/B abstract + границы: [`../../materials-snapshots/agent-ab-arxiv-abstract.md`](../../materials-snapshots/agent-ab-arxiv-abstract.md).  
 4. Опционально видео: [Claude for PMs](https://www.youtube.com/watch?v=bITUsUsrxjM) (можно на 1.5×, фокус на skills/MCP).
 
 Полный список: [`../materials-by-module.md`](../materials-by-module.md).

@@ -1,5 +1,15 @@
 # Н0 · Checklist приёмки
 
+```mermaid
+flowchart LR
+  A["Harness + hello/verify"] --> B["n8n жив"]
+  B --> C["ONEPAGER свой"]
+  C --> D["ai-contract"]
+  D --> E{"Приёмка"}
+  E -->|ок| F["Готов к Н1"]
+  E -->|флаг| G["Доработка"]
+```
+
 ## Студент сдаёт
 
 - [ ] Harness ≥1 установлен; есть `notes/hello.md` (или аналог), созданный агентом.  

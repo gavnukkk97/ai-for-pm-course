@@ -1,0 +1,61 @@
+persona_id,segment,variant,seed,model,outcome,success,themes,path_raw
+P06,productivity-maxers,B,ritm-h02-20260918,mock,success,true,раздражает paywall рано|готов попробовать,raw/P06_B_19.md
+P13,habit-starters-freelance,A,ritm-h02-20260918,mock,reject_or_confused,false,путаница в тарифе|Продолжить без цены,raw/P13_A_20.md
+P15,productivity-maxers,A,ritm-h02-20260918,mock,success,true,CTA без обмена|лучше Notes,raw/P15_A_54.md
+P13,habit-starters-freelance,B,ritm-h02-20260918,mock,success,true,понятен лимит|цена на виду,raw/P13_B_35.md
+P07,habit-starters-freelance,A,ritm-h02-20260918,mock,reject_or_confused,false,путаница в тарифе|Продолжить без цены,raw/P07_A_28.md
+P12,productivity-maxers,A,ritm-h02-20260918,mock,reject_or_confused,false,путаница в тарифе|Продолжить без цены,raw/P12_A_26.md
+P04,habit-starters-freelance,B,ritm-h02-20260918,mock,success,true,готов попробовать|понятен лимит,raw/P04_B_7.md
+P09,productivity-maxers,A,ritm-h02-20260918,mock,reject_or_confused,false,путаница в тарифе|Продолжить без цены,raw/P09_A_14.md
+P02,relapse-parents,A,ritm-h02-20260918,mock,reject_or_confused,false,путаница в тарифе|Продолжить без цены,raw/P02_A_16.md
+P09,productivity-maxers,A,ritm-h02-20260918,mock,reject_or_confused,false,путаница в тарифе|Продолжить без цены,raw/P09_A_44.md
+P02,relapse-parents,A,ritm-h02-20260918,mock,success,true,CTA без обмена|похоже на налог,raw/P02_A_46.md
+P14,relapse-parents,A,ritm-h02-20260918,mock,success,true,непонятная цена|лучше Notes,raw/P14_A_18.md
+P04,habit-starters-freelance,B,ritm-h02-20260918,mock,reject_or_confused,false,раздражает paywall рано|понятен лимит,raw/P04_B_37.md
+P07,habit-starters-freelance,A,ritm-h02-20260918,mock,reject_or_confused,false,путаница в тарифе|Продолжить без цены,raw/P07_A_58.md
+P08,relapse-parents,B,ritm-h02-20260918,mock,success,true,раздражает paywall рано|понятен лимит,raw/P08_B_53.md
+P12,productivity-maxers,B,ritm-h02-20260918,mock,success,true,понятен лимит|готов попробовать,raw/P12_B_11.md
+P02,relapse-parents,B,ritm-h02-20260918,mock,reject_or_confused,false,готов попробовать|понятен лимит,raw/P02_B_31.md
+P10,habit-starters-freelance,A,ritm-h02-20260918,mock,reject_or_confused,false,путаница в тарифе|Продолжить без цены,raw/P10_A_10.md
+P08,relapse-parents,A,ritm-h02-20260918,mock,reject_or_confused,false,путаница в тарифе|Продолжить без цены,raw/P08_A_8.md
+P10,habit-starters-freelance,A,ritm-h02-20260918,mock,reject_or_confused,false,путаница в тарифе|Продолжить без цены,raw/P10_A_40.md
+P06,productivity-maxers,A,ritm-h02-20260918,mock,success,true,CTA без обмена|непонятная цена,raw/P06_A_4.md
+P10,habit-starters-freelance,B,ritm-h02-20260918,mock,success,true,понятен лимит|раздражает paywall рано,raw/P10_B_25.md
+P12,productivity-maxers,B,ritm-h02-20260918,mock,success,true,готов попробовать|понятен лимит,raw/P12_B_41.md
+P05,relapse-parents,A,ritm-h02-20260918,mock,success,true,непонятная цена|лучше Notes,raw/P05_A_2.md
+P11,relapse-parents,B,ritm-h02-20260918,mock,success,true,цена на виду|готов попробовать,raw/P11_B_27.md
+P10,habit-starters-freelance,B,ritm-h02-20260918,mock,success,true,понятен лимит|цена на виду,raw/P10_B_55.md
+P03,productivity-maxers,A,ritm-h02-20260918,mock,success,true,похоже на налог|лучше Notes,raw/P03_A_36.md
+P02,relapse-parents,B,ritm-h02-20260918,mock,success,true,раздражает paywall рано|понятен лимит,raw/P02_B_1.md
+P15,productivity-maxers,A,ritm-h02-20260918,mock,reject_or_confused,false,путаница в тарифе|Продолжить без цены,raw/P15_A_24.md
+P13,habit-starters-freelance,A,ritm-h02-20260918,mock,reject_or_confused,false,путаница в тарифе|Продолжить без цены,raw/P13_A_50.md
+P11,relapse-parents,A,ritm-h02-20260918,mock,reject_or_confused,false,путаница в тарифе|Продолжить без цены,raw/P11_A_42.md
+P01,habit-starters-freelance,B,ritm-h02-20260918,mock,success,true,понятен лимит|раздражает paywall рано,raw/P01_B_15.md
+P14,relapse-parents,B,ritm-h02-20260918,mock,reject_or_confused,false,раздражает paywall рано|цена на виду,raw/P14_B_3.md
+P03,productivity-maxers,B,ritm-h02-20260918,mock,reject_or_confused,false,понятен лимит|цена на виду,raw/P03_B_51.md
+P01,habit-starters-freelance,A,ritm-h02-20260918,mock,reject_or_confused,false,путаница в тарифе|Продолжить без цены,raw/P01_A_30.md
+P12,productivity-maxers,A,ritm-h02-20260918,mock,reject_or_confused,false,путаница в тарифе|Продолжить без цены,raw/P12_A_56.md
+P09,productivity-maxers,B,ritm-h02-20260918,mock,reject_or_confused,false,понятен лимит|раздражает paywall рано,raw/P09_B_29.md
+P13,habit-starters-freelance,B,ritm-h02-20260918,mock,success,true,понятен лимит|цена на виду,raw/P13_B_5.md
+P11,relapse-parents,B,ritm-h02-20260918,mock,success,true,цена на виду|готов попробовать,raw/P11_B_57.md
+P01,habit-starters-freelance,B,ritm-h02-20260918,mock,reject_or_confused,false,готов попробовать|раздражает paywall рано,raw/P01_B_45.md
+P04,habit-starters-freelance,A,ritm-h02-20260918,mock,reject_or_confused,false,путаница в тарифе|Продолжить без цены,raw/P04_A_52.md
+P06,productivity-maxers,B,ritm-h02-20260918,mock,success,true,понятен лимит|готов попробовать,raw/P06_B_49.md
+P08,relapse-parents,A,ritm-h02-20260918,mock,success,true,непонятная цена|лучше Notes,raw/P08_A_38.md
+P14,relapse-parents,B,ritm-h02-20260918,mock,reject_or_confused,false,цена на виду|раздражает paywall рано,raw/P14_B_33.md
+P05,relapse-parents,B,ritm-h02-20260918,mock,success,true,цена на виду|раздражает paywall рано,raw/P05_B_47.md
+P05,relapse-parents,A,ritm-h02-20260918,mock,success,true,похоже на налог|CTA без обмена,raw/P05_A_32.md
+P09,productivity-maxers,B,ritm-h02-20260918,mock,reject_or_confused,false,понятен лимит|раздражает paywall рано,raw/P09_B_59.md
+P08,relapse-parents,B,ritm-h02-20260918,mock,success,true,понятен лимит|готов попробовать,raw/P08_B_23.md
+P06,productivity-maxers,A,ritm-h02-20260918,mock,reject_or_confused,false,путаница в тарифе|Продолжить без цены,raw/P06_A_34.md
+P03,productivity-maxers,B,ritm-h02-20260918,mock,success,true,готов попробовать|раздражает paywall рано,raw/P03_B_21.md
+P11,relapse-parents,A,ritm-h02-20260918,mock,reject_or_confused,false,путаница в тарифе|Продолжить без цены,raw/P11_A_12.md
+P15,productivity-maxers,B,ritm-h02-20260918,mock,reject_or_confused,false,цена на виду|раздражает paywall рано,raw/P15_B_39.md
+P01,habit-starters-freelance,A,ritm-h02-20260918,mock,success,true,похоже на налог|непонятная цена,raw/P01_A_0.md
+P04,habit-starters-freelance,A,ritm-h02-20260918,mock,success,true,непонятная цена|CTA без обмена,raw/P04_A_22.md
+P07,habit-starters-freelance,B,ritm-h02-20260918,mock,reject_or_confused,false,понятен лимит|цена на виду,raw/P07_B_43.md
+P07,habit-starters-freelance,B,ritm-h02-20260918,mock,success,true,раздражает paywall рано|цена на виду,raw/P07_B_13.md
+P15,productivity-maxers,B,ritm-h02-20260918,mock,reject_or_confused,false,раздражает paywall рано|понятен лимит,raw/P15_B_9.md
+P05,relapse-parents,B,ritm-h02-20260918,mock,reject_or_confused,false,цена на виду|раздражает paywall рано,raw/P05_B_17.md
+P14,relapse-parents,A,ritm-h02-20260918,mock,success,true,непонятная цена|похоже на налог,raw/P14_A_48.md
+P03,productivity-maxers,A,ritm-h02-20260918,mock,success,true,CTA без обмена|лучше Notes,raw/P03_A_6.md

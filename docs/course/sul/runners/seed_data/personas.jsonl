@@ -1,0 +1,15 @@
+{"id": "P01", "segment": "habit-starters-freelance", "display_name": "Аня, 29", "jtbd": "Удержать 1–2 коротких ритуала между дедлайнами", "constraints": "бюджет ≤300₽; онбординг ≤60с", "patience_actions": 6, "price_sensitivity": "high"}
+{"id": "P02", "segment": "relapse-parents", "display_name": "Кира, 34", "jtbd": "Вернуть серию после срыва без стыда", "constraints": "окна 6:30 и 21:00", "patience_actions": 5, "price_sensitivity": "medium"}
+{"id": "P03", "segment": "productivity-maxers", "display_name": "Илья, 31", "jtbd": "2–3 привычки + напоминания как система", "constraints": "готов платить раньше; раздражает early paywall", "patience_actions": 8, "price_sensitivity": "low"}
+{"id": "P04", "segment": "habit-starters-freelance", "display_name": "Олег, 27", "jtbd": "Якорь 5 минут утром", "constraints": "одна рука / телефон", "patience_actions": 4, "price_sensitivity": "high"}
+{"id": "P05", "segment": "relapse-parents", "display_name": "Марина, 38", "jtbd": "Серия без перфекционизма", "constraints": "не читать длинный онбординг", "patience_actions": 5, "price_sensitivity": "medium"}
+{"id": "P06", "segment": "productivity-maxers", "display_name": "Денис, 36", "jtbd": "Снять лимит привычек", "constraints": "сравнивает с Notion", "patience_actions": 7, "price_sensitivity": "low"}
+{"id": "P07", "segment": "habit-starters-freelance", "display_name": "Света, 30", "jtbd": "Вода + растяжка без соцсети привычек", "constraints": "WTP неясен", "patience_actions": 6, "price_sensitivity": "high"}
+{"id": "P08", "segment": "relapse-parents", "display_name": "Павел, 41", "jtbd": "Не бросить на D3", "constraints": "забывает открыть приложение", "patience_actions": 3, "price_sensitivity": "medium"}
+{"id": "P09", "segment": "productivity-maxers", "display_name": "Ника, 28", "jtbd": "Напоминания = ценность Pro", "constraints": "ненавидит vanity CTA", "patience_actions": 7, "price_sensitivity": "low"}
+{"id": "P10", "segment": "habit-starters-freelance", "display_name": "Тимур, 33", "jtbd": "Маленький win в развалившийся день", "constraints": "Notes как заменитель", "patience_actions": 5, "price_sensitivity": "high"}
+{"id": "P11", "segment": "relapse-parents", "display_name": "Юля, 35", "jtbd": "Вернуться после streak=0", "constraints": "стыд", "patience_actions": 4, "price_sensitivity": "high"}
+{"id": "P12", "segment": "productivity-maxers", "display_name": "Артём, 29", "jtbd": "Система из 3 привычек", "constraints": "читает цены", "patience_actions": 8, "price_sensitivity": "medium"}
+{"id": "P13", "segment": "habit-starters-freelance", "display_name": "Лена, 26", "jtbd": "Старт без карусели успеха", "constraints": "patience низкий", "patience_actions": 3, "price_sensitivity": "high"}
+{"id": "P14", "segment": "relapse-parents", "display_name": "Сергей, 39", "jtbd": "Привычка «для себя» ≤300₽", "constraints": "семья / шум", "patience_actions": 5, "price_sensitivity": "medium"}
+{"id": "P15", "segment": "productivity-maxers", "display_name": "Катя, 32", "jtbd": "Benefit-copy важнее трофеев", "constraints": "CPO-мышление", "patience_actions": 9, "price_sensitivity": "low"}

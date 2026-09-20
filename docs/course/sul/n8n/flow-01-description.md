@@ -4,6 +4,20 @@
 
 ## Топология
 
+```mermaid
+sequenceDiagram
+  participant Trig as Manual / Webhook
+  participant Set as Set normalize
+  participant LLM as Basic LLM / AI Agent
+  participant Wrap as Set wrap markdown
+  participant Out as Output / Write File
+  Trig->>Set: JSON input
+  Set->>LLM: product_name + backlog + ask
+  Note over LLM: credential только в UI n8n
+  LLM->>Wrap: сырой текст
+  Wrap->>Out: artifact_markdown + timestamp
+```
+
 ```text
 [Manual Trigger] ──┐
                    ├──► [Set: normalize] ──► [Basic LLM Chain] ──► [Set: wrap markdown] ──► (output)
