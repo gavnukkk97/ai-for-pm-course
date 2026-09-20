@@ -10,15 +10,15 @@
 
 | Папка | Неделя / веха | Статус производства |
 |---|---|---|
-| [`week-00/`](./week-00/) | **Н0** async-онбординг: env, LLM, договор «AI ≠ вывод», 1-pager своего продукта | draft v1 |
-| [`week-01/`](./week-01/) | **Н1** AI-экзоскелет: fluency ≥1 harness, skill, n8n flow #1, **S0** | draft v1 |
-| [`week-02/`](./week-02/) | **Н2** ICP / конкуренты / УТП → банк персон (**S1** старт) | draft v1 |
-| [`week-03/`](./week-03/) | **Н3** Discovery + Минто → гипотезы, digest, **S2** старт | draft v1 |
-| [`week-04/`](./week-04/) | **Н4** AI-ставки / стратегия → sizing + tornado (**S3**) | draft v1 |
-| [`week-05/`](./week-05/) | **Н5** Дерево метрик / юнит / 3 сценария | draft v1 |
-| [`week-06/`](./week-06/) | **Н6** Bare vs rich аналитика → **S4** старт (protocol) | draft v1 |
-| [`week-07/`](./week-07/) | **Н7** Питч + претест ≥50–100 (**S4**) | draft v1 |
-| [`week-08/`](./week-08/) | **Н8** Капстоун / защита (**S5**) | draft v1 |
+| [`week-00/`](./week-00/) | **Н0** async-онбординг: env, LLM, договор «AI ≠ вывод», 1-pager своего продукта | draft v1 · **лекция** [`lecture.md`](./week-00/lecture.md) |
+| [`week-01/`](./week-01/) | **Н1** AI-экзоскелет: fluency ≥1 harness, skill, n8n flow #1, **S0** | draft v1 · **лекция** [`lecture.md`](./week-01/lecture.md) |
+| [`week-02/`](./week-02/) | **Н2** ICP / конкуренты / УТП → банк персон (**S1** старт) | draft v1 · **лекция** [`lecture.md`](./week-02/lecture.md) |
+| [`week-03/`](./week-03/) | **Н3** Discovery + Минто → гипотезы, digest, **S2** старт | draft v1 · **лекция** [`lecture.md`](./week-03/lecture.md) |
+| [`week-04/`](./week-04/) | **Н4** AI-ставки / стратегия → sizing + tornado (**S3**) | draft v1 · **лекция** [`lecture.md`](./week-04/lecture.md) |
+| [`week-05/`](./week-05/) | **Н5** Дерево метрик / юнит / 3 сценария | draft v1 · **лекция** [`lecture.md`](./week-05/lecture.md) |
+| [`week-06/`](./week-06/) | **Н6** Bare vs rich аналитика → **S4** старт (protocol) | draft v1 · **лекция** [`lecture.md`](./week-06/lecture.md) |
+| [`week-07/`](./week-07/) | **Н7** Питч + претест ≥50–100 (**S4**) | draft v1 · **лекция** [`lecture.md`](./week-07/lecture.md) |
+| [`week-08/`](./week-08/) | **Н8** Капстоун / защита (**S5**) | draft v1 · **лекция** [`lecture.md`](./week-08/lecture.md) |
 | [`sul/`](./sul/) | Флагман **S0→S5**: scaffold + шаблоны S1–S5 + n8n #1–#3 + S4 runner | draft v2 |
 | [`instructor/`](./instructor/) | Playbook 0–8 + **эталоны Ритм** | v2 |
 | [`materials-by-module.md`](./materials-by-module.md) | Reading list + gaps по каждой неделе | живой индекс |
@@ -36,10 +36,25 @@
 
 | Файл | Для кого | Содержание |
 |---|---|---|
+| `lecture.md` | преподаватель | скрипт живой лекции ~1,5 ч (Н0 — короче, async): нарратив, демо, доска, ловушки |
 | `lesson-outline.md` | преподаватель + студент | цели, тайминг, теория-скелет, практика, mermaid |
 | `student-brief.md` | студент | что сделать за неделю, артефакты, как сдавать |
 | `instructor-notes.md` | преподаватель | демо на **Ритме**, типичные сбои, что не показывать |
 | `checklist.md` | оба | приёмка недели |
+
+### Лекции по неделям
+
+| Неделя | Скрипт |
+|---|---|
+| Н0 | [`week-00/lecture.md`](./week-00/lecture.md) |
+| Н1 | [`week-01/lecture.md`](./week-01/lecture.md) |
+| Н2 | [`week-02/lecture.md`](./week-02/lecture.md) |
+| Н3 | [`week-03/lecture.md`](./week-03/lecture.md) |
+| Н4 | [`week-04/lecture.md`](./week-04/lecture.md) |
+| Н5 | [`week-05/lecture.md`](./week-05/lecture.md) |
+| Н6 | [`week-06/lecture.md`](./week-06/lecture.md) |
+| Н7 | [`week-07/lecture.md`](./week-07/lecture.md) |
+| Н8 | [`week-08/lecture.md`](./week-08/lecture.md) |
 
 ---
 
@@ -65,4 +80,9 @@
 
 ## Дальше по производству
 
-v2 P0/P1 gaps (эталоны Ритм, n8n #2/#3, S4 runner, playbook) — **закрыты**. Остаётся P2 (скринкаст Cursor, `.xlsx` Н5, sample RUBRIC) и локальный push — см. [`../local-push-brief.md`](../local-push-brief.md), [`../../internal/materials-production.md`](../../internal/materials-production.md).
+**Шаг 1/4 (лекции)** — **готово:** `lecture.md` в `week-00`…`week-08`.  
+**Шаг 2/4** — homework packs (+ ключи).  
+Шаги 3–4 — слайды; P2 (скринкаст, `.xlsx` Н5, sample RUBRIC).
+
+v2 instructor kit (эталоны Ритм, n8n #2/#3, S4 runner, playbook) — закрыт ранее.  
+Синк лекций: [`../local-push-brief-lectures.md`](../local-push-brief-lectures.md) · полный v2: [`../local-push-brief.md`](../local-push-brief.md) · статус: [`../../internal/materials-production.md`](../../internal/materials-production.md).
