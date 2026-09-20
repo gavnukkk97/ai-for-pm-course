@@ -19,7 +19,7 @@
 | YT | [AI-Native PM webinar](https://www.youtube.com/watch?v=Xp_iIkt94TQ) | опц. | filled |
 | Paid | LI Learning Marily Nika — AI Agents for Product Leaders | опц. | thin (paid) |
 
-**Gaps:** короткий RU-скринкаст «ставим Cursor за 10 мин» своим автором — **todo** (видео); shot-list готов — [`instructor/screencast-cursor-10min-shotlist.md`](./instructor/screencast-cursor-10min-shotlist.md). Манифест скринов для дропа: [`media/README.md`](./media/README.md).
+**Gaps:** короткий RU-скринкаст «ставим Cursor за 10 мин» своим автором — **todo** (видео); shot-list готов — [`instructor/screencast-cursor-10min-shotlist.md`](./instructor/screencast-cursor-10min-shotlist.md); outline-плейсхолдер (не видео) — [`media/placeholders/cursor-10min-screencast-outline.md`](./media/placeholders/cursor-10min-screencast-outline.md). Манифест + P0 mermaid-плейсхолдеры: [`media/README.md`](./media/README.md) (бинари — TODO kir).
 
 Студенческие тексты: [`week-00/`](./week-00/) · триаж: [`cold-start-triage.md`](./cold-start-triage.md).
 

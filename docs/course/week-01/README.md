@@ -16,6 +16,8 @@
 
 **SUL:** Старт флагмана: скопируйте [`../sul/`](../sul/) → **S0**.
 
+**Визуалы (пока плейсхолдеры):** [`../media/placeholders/n1-skill-skillmd.md`](../media/placeholders/n1-skill-skillmd.md) · [`../media/placeholders/n1-n8n-flow01-canvas.md`](../media/placeholders/n1-n8n-flow01-canvas.md) · [индекс media](../media/README.md).
+
 ## Файлы папки
 
 | Файл | Роль |

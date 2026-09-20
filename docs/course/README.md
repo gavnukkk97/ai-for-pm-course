@@ -45,7 +45,7 @@ flowchart LR
 | [`sul/`](./sul/) | Флагман **S0→S5** | starter kit, шаблоны, n8n, runner |
 | [`cold-start-triage.md`](./cold-start-triage.md) | Старт | ветки live / idea / NDA / no-Docker |
 | [`monday-survival-checklist.md`](./monday-survival-checklist.md) | После курса | понедельник: digest · skill · SUL |
-| [`media/`](./media/) | Визуалы | манифест скринов/видео (файлы — от автора) |
+| [`media/`](./media/) | Визуалы | манифест + P0 плейсхолдеры; бинари — от автора |
 | [`instructor/`](./instructor/) | Только преподавателям | playbook, эталоны Ритм, shot-list |
 | [`materials-by-module.md`](./materials-by-module.md) | Reading list | ссылки по неделям |
 

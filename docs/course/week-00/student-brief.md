@@ -28,7 +28,9 @@ flowchart LR
   triage --> harness --> n8nbox --> product --> contract
 ```
 
-Скрины UI появятся позже в [`../media/`](../media/) (пока — текстовый чеклист + офиц. доки).
+Живые UI-скрины ещё пишет автор ([`../media/README.md`](../media/README.md)). Пока смотрите **плейсхолдеры** (mermaid/ASCII, помечены «плейсхолдер → заменить скрином») — они показывают, *что* должно получиться на экране.
+
+Индекс: [`../media/placeholders/`](../media/placeholders/). Outline скринкаста Cursor (~10 мин): [`../media/placeholders/cursor-10min-screencast-outline.md`](../media/placeholders/cursor-10min-screencast-outline.md).
 
 ---
 
@@ -40,6 +42,8 @@ flowchart LR
 |---|---|---|
 | **Cursor** | [cursor.com](https://cursor.com) → Agent chat | Откройте пустую папку курса; попросите: «создай `notes/hello.md` с 3 строками о моём продукте» — файл появился |
 | **Claude Code** | [Quickstart](https://code.claude.com/docs/en/quickstart) | В терминале в папке проекта: создайте `CLAUDE.md` с 5 правилами работы; попросите агента дополнить `notes/hello.md` |
+
+**Как выглядит успех (плейсхолдер, не фото UI):** [`../media/placeholders/n0-cursor-agent-hello.md`](../media/placeholders/n0-cursor-agent-hello.md) — промпт → Accept diff → `notes/hello.md` на диске → `verify.md` руками.
 
 **Минимум проверки после dry-run:**
 
@@ -73,6 +77,8 @@ docker run -it --rm \
 Офиц. ориентиры: [Choose how to use n8n](https://docs.n8n.io/choose-how-to-use-n8n/) · [Docker install](https://docs.n8n.io/hosting/installation/docker/).
 
 На Н0 **не** нужен рабочий LLM-flow — достаточно «инстанс жив + пустой workflow сохранён».
+
+**Как выглядит список Workflows (плейсхолдер):** [`../media/placeholders/n0-n8n-workflows-empty.md`](../media/placeholders/n0-n8n-workflows-empty.md) — один сохранённый пустой flow в UI.
 
 ---
 
